@@ -1,0 +1,21 @@
+cradle:
+  cabal:
+    - path: "./common"
+      component: "lib:common"
+    - path: "./frontend"
+      component: "lib:frontend"
+    - path: "./backend"
+      component: "lib:backend"
+    - path: "./saline-node"
+      component: "lib:saline-node"
+    - path: "./dev"
+      component: "lib:dev"
+
+  #  - path: "./frontend"
+  #    component: "exe:frontend"
+  #  - path: "./backend"
+  #    component: "exe:backend"
+  #  - path: "./saline-node"
+  #    component: "exe:saline-node"
+  #  - path: "./dev"
+  #    component: "test:dev"

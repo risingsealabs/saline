@@ -1,0 +1,3 @@
+[submodule "saline-sdk"]
+	path = saline-sdk
+	url = https://github.com/risingsealabs/saline-sdk.git

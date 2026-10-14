@@ -1,0 +1,72 @@
+name: Build images and deploy to GAR
+
+on:
+  workflow_call:
+    inputs:
+      images:
+        required: true
+        type: string
+    secrets:
+      ARTIFACT_REGISTRY_SECRET:
+        required: true
+
+env:
+  PROJECT_ID: YOUR_GCP_PROJECT_ID
+  REGION: europe-west1
+  GAR_LOCATION: europe-west1-docker.pkg.dev
+  GAR_REPO_NAME: saline
+
+jobs:
+  push:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Nix
+      uses: DeterminateSystems/nix-installer-action@v12
+      with:
+        extra-conf: |
+          substituters = https://cache.nixos.org/ https://nixcache.reflex-frp.org
+          trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= ryantrinkle.com-1:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=
+
+    - name: Run the Magic Nix Cache
+      uses: DeterminateSystems/magic-nix-cache-action@v7
+      with:
+        upstream-cache: https://nixcache.reflex-frp.org
+
+    - id: "auth"
+      uses: "google-github-actions/auth@v2"
+      with:
+        credentials_json: "${{ secrets.ARTIFACT_REGISTRY_SECRET }}"
+
+    - name: "Set up Cloud SDK"
+      uses: "google-github-actions/setup-gcloud@v2"
+
+    - name: "Use gcloud CLI"
+      run: "gcloud info"
+
+    - name: "Gcloud Docker auth"
+      run: |-
+        gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+
+    - name: Generate build ID
+      id: prep
+      run: |
+          branch=${GITHUB_REF##*/}
+          sha=${GITHUB_SHA::8}
+          ts=$(date +%s)
+          echo "::set-output name=BUILD_ID::${branch}-${sha}-${ts}"
+
+    - name: Get tag
+      id: get-tag
+      run: echo "{name=short_ref}={${GITHUB_REF#refs/*/}}" >> $GITHUB_OUTPUT
+
+    - id: docker-push-tagged
+      name: Push docker images to DockerHub
+      run: |
+        for img in ${{ inputs.images }}
+        do
+          docker load < $(nix-build project.nix -A cd.$img)
+          docker image tag $img:latest  ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_REPO_NAME }}/$img:${{ steps.prep.outputs.BUILD_ID }}
+          docker push ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_REPO_NAME }}/$img:${{ steps.prep.outputs.BUILD_ID }}
+        done

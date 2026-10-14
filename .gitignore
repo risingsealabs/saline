@@ -1,0 +1,53 @@
+# nix
+result
+result-*
+.direnv
+
+# cabal
+dist-newstyle
+
+# ghcid
+ghcid-output.txt
+
+# obelisk
+.attr-cache
+static.out
+
+# macOS
+.DS_Store
+
+# node config/data
+.testnet
+
+
+# Python
+*.pyc
+
+# Packages
+/dist/*
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache
+
+.idea/*
+.python-version
+.vscode/*
+
+/docs/site/*
+.mypy_cache
+__pycache__
+
+.venv
+.vscode
+poetry.lock
+
+
+.cursorrules
+
+# Local credentials and generated node keys
+.env
+.env.*
+!.env.example
+node_key*.json
+priv_validator_key*.json

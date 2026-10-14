@@ -1,0 +1,27 @@
+name: Build everything
+
+on:
+  push:
+    branches-ignore:
+      - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install Nix
+      uses: DeterminateSystems/nix-installer-action@v12
+      with:
+        extra-conf: |
+          substituters = https://cache.nixos.org/ https://nixcache.reflex-frp.org
+          trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= ryantrinkle.com-1:JJiAKaRv9mWgpVAz8dwewnZe0AzzEAzPkagE9SP5NWI=
+
+    - name: Run the Magic Nix Cache
+      uses: DeterminateSystems/magic-nix-cache-action@v7
+      with:
+        upstream-cache: https://nixcache.reflex-frp.org
+
+    - name: Dev mode build
+      run: nix-build project.nix -A ci

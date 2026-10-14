@@ -1,0 +1,109 @@
+cabal-version:      3.0
+name:               backend
+version:            0.1
+build-type:         Simple
+license:            Apache-2.0
+license-file:       LICENSE
+author:             Rising Sea Labs Ltd.
+maintainer:         code@risingsealabs.com
+copyright:          2024 Rising Sea Labs Ltd.
+
+common ghc2021
+  default-language: Haskell2010
+  default-extensions:
+    BangPatterns
+    BinaryLiterals
+    ConstraintKinds
+    DeriveDataTypeable
+    DeriveGeneric
+    DeriveLift
+    DeriveTraversable
+    DoAndIfThenElse
+    EmptyCase
+    EmptyDataDecls
+    EmptyDataDeriving
+    ExistentialQuantification
+    FlexibleContexts
+    FlexibleInstances
+    ForeignFunctionInterface
+    GADTSyntax
+    GeneralisedNewtypeDeriving
+    HexFloatLiterals
+    ImportQualifiedPost
+    InstanceSigs
+    MonoLocalBinds
+    MultiParamTypeClasses
+    NamedFieldPuns
+    NamedWildCards
+    NumericUnderscores
+    PatternGuards
+    PolyKinds
+    PostfixOperators
+    RankNTypes
+    RelaxedPolyRec
+    ScopedTypeVariables
+    StandaloneDeriving
+    StandaloneKindSignatures
+    StarIsType
+    TraditionalRecordSyntax
+    TupleSections
+    TypeApplications
+    TypeOperators
+
+common ghc2024
+  import: ghc2021
+  default-extensions:
+    DataKinds
+    DerivingStrategies
+    DisambiguateRecordFields
+    GADTs
+    LambdaCase
+    RoleAnnotations
+
+common defaults
+  import: ghc2024
+  ghc-options:
+    -Wall -O -fno-show-valid-hole-fits
+    -- unsafe code
+    -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields
+    -- unneeded code
+    -Widentities -Wredundant-constraints
+
+    -Werror=incomplete-patterns
+    -Werror=missing-fields
+    -Werror=missing-methods
+
+    -ferror-spans
+    -fprint-expanded-synonyms
+
+  if impl(ghc >= 8.8)
+    ghc-options:
+      -Wmissing-deriving-strategies
+
+common native
+  if impl(ghcjs)
+    buildable: False
+
+
+library
+  import: defaults, native
+  hs-source-dirs: src
+  build-depends:
+      base
+    , common
+    , frontend
+    , obelisk-backend
+    , obelisk-route
+
+  exposed-modules:
+    Backend
+    Saline.Backend
+
+executable backend
+  import: defaults, native
+  main-is: main.hs
+  hs-source-dirs: src-bin
+  build-depends:
+      base
+    , common
+    , backend

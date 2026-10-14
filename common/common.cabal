@@ -1,0 +1,172 @@
+cabal-version:      3.0
+name:               common
+version:            0.1
+build-type:         Simple
+license:            Apache-2.0
+license-file:       LICENSE
+author:             Rising Sea Labs Ltd.
+maintainer:         code@risingsealabs.com
+copyright:          2024 Rising Sea Labs Ltd.
+
+common ghc2021
+  default-language: Haskell2010
+  default-extensions:
+    BangPatterns
+    BinaryLiterals
+    ConstraintKinds
+    DeriveDataTypeable
+    DeriveGeneric
+    DeriveLift
+    DeriveTraversable
+    DoAndIfThenElse
+    EmptyCase
+    EmptyDataDecls
+    EmptyDataDeriving
+    ExistentialQuantification
+    FlexibleContexts
+    FlexibleInstances
+    ForeignFunctionInterface
+    GADTSyntax
+    GeneralisedNewtypeDeriving
+    HexFloatLiterals
+    ImportQualifiedPost
+    InstanceSigs
+    MonoLocalBinds
+    MultiParamTypeClasses
+    NamedFieldPuns
+    NamedWildCards
+    NumericUnderscores
+    PatternGuards
+    PolyKinds
+    PostfixOperators
+    RankNTypes
+    RelaxedPolyRec
+    ScopedTypeVariables
+    StandaloneDeriving
+    StandaloneKindSignatures
+    StarIsType
+    TraditionalRecordSyntax
+    TupleSections
+    TypeApplications
+    TypeOperators
+
+common ghc2024
+  import: ghc2021
+  default-extensions:
+    DataKinds
+    DerivingStrategies
+    DisambiguateRecordFields
+    GADTs
+    LambdaCase
+    RoleAnnotations
+
+common defaults
+  import: ghc2024
+  ghc-options:
+    -Wall -O -fno-show-valid-hole-fits
+    -- unsafe code
+    -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields
+    -- unneeded code
+    -Widentities -Wredundant-constraints
+
+    -Werror=incomplete-patterns
+    -Werror=missing-fields
+    -Werror=missing-methods
+
+    -ferror-spans
+    -fprint-expanded-synonyms
+
+  if impl(ghc >= 8.8)
+    ghc-options:
+      -Wmissing-deriving-strategies
+
+library
+  import: defaults
+  hs-source-dirs: src
+  build-depends:
+      aeson
+    , aeson-gadt-th
+    , ansi-terminal
+    , base
+    , base16
+    , bytestring
+    , categories
+    , clay
+    , constraints
+    , constraints-extras
+    , containers
+    , crypton
+    , data-default
+    , data-interval
+    , dependent-map
+    , dependent-sum
+    , dependent-sum-template
+    , distributive
+    , errors
+    , extended-reals
+    , filepath
+    , ghcjs-dom
+    , hs-abci-types
+    , hs-tendermint-client
+    , invariant
+    , jsaddle
+    , lens
+    , memory
+    , modern-uri
+    , mtl
+    , obelisk-executable-config-lookup
+    , obelisk-frontend
+    , obelisk-generated-static
+    , obelisk-route
+    , process
+    , QuickCheck
+    , quickcheck-instances
+    , random
+    , raw-strings-qq
+    , reflex-dom-core
+    , semialign
+    , SHA
+    , some
+    , template-haskell
+    , text
+    , these
+    , time
+    , transformers
+    , universe
+    , universe-some
+    , uuid
+    , witherable
+
+  if !impl(ghcjs)
+    build-depends:
+        cardano-crypto
+      , hsblst
+      --hsblst builds but fails at runtime due to missing C sources
+
+  exposed-modules:
+    Saline.Config
+    Saline.Core.Classes
+    Saline.Core.Types
+    Saline.Core.Validate
+    Saline.Crypto
+    Saline.Integrations.Aeson
+    Saline.Integrations.Bindings
+    Saline.Integrations.Python
+    Saline.Intents
+    Saline.Intents.Analysis
+    Saline.Intents.Arbitrary
+    Saline.Intents.Condition
+    Saline.Intents.Contracts
+    Saline.Intents.Diagrams
+    Saline.Intents.Instrument
+    Saline.Intents.Satisfying
+    Saline.Intents.Witness
+    Saline.Interface.Query
+    Saline.Interface.Route
+    Saline.Network.Node.RPC
+    Saline.Network.Node.Transaction
+    Saline.Utils
+    Saline.Utils.Field
+    Saline.Utils.Satisfying
+    Saline.Utils.TH
+    Saline.Utils.Uniques

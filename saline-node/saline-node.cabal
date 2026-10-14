@@ -1,0 +1,147 @@
+cabal-version:      3.0
+name:               saline-node
+version:            0.1
+build-type:         Simple
+license:            Apache-2.0
+license-file:       LICENSE
+author:             Rising Sea Labs Ltd.
+maintainer:         code@risingsealabs.com
+copyright:          2024 Rising Sea Labs Ltd.
+
+common ghc2021
+  default-language: Haskell2010
+  default-extensions:
+    BangPatterns
+    BinaryLiterals
+    ConstrainedClassMethods
+    ConstraintKinds
+    DeriveDataTypeable
+    DeriveFoldable
+    DeriveFunctor
+    DeriveGeneric
+    DeriveLift
+    DeriveTraversable
+    DoAndIfThenElse
+    EmptyCase
+    EmptyDataDecls
+    EmptyDataDeriving
+    ExistentialQuantification
+    ExplicitForAll
+    --FieldSelectors -- 9.2+
+    FlexibleContexts
+    FlexibleInstances
+    ForeignFunctionInterface
+    GADTSyntax
+    GeneralisedNewtypeDeriving
+    HexFloatLiterals
+    ImplicitPrelude
+    ImportQualifiedPost
+    InstanceSigs
+    KindSignatures
+    MonoLocalBinds
+    MonomorphismRestriction
+    MultiParamTypeClasses
+    NamedFieldPuns
+    NamedWildCards
+    NumericUnderscores
+    PatternGuards
+    PolyKinds
+    PostfixOperators
+    RankNTypes
+    RelaxedPolyRec
+    ScopedTypeVariables
+    StandaloneDeriving
+    StandaloneKindSignatures
+    StarIsType
+    TraditionalRecordSyntax
+    TupleSections
+    TypeApplications
+    TypeOperators
+    TypeSynonymInstances
+
+common ghc2024
+  import: ghc2021
+  default-extensions:
+    DataKinds
+    DerivingStrategies
+    DisambiguateRecordFields
+    ExplicitNamespaces
+    GADTs
+    LambdaCase
+    RoleAnnotations
+
+common defaults
+  import: ghc2024
+  ghc-options:
+    -Wall -O -fno-show-valid-hole-fits
+    -- unsafe code
+    -Wincomplete-record-updates -Wincomplete-uni-patterns -Wpartial-fields
+    -- unneeded code
+    -Widentities -Wredundant-constraints
+
+    -Werror=incomplete-patterns
+    -Werror=missing-fields
+    -Werror=missing-methods
+
+    -ferror-spans
+    -fprint-expanded-synonyms
+
+  if impl(ghc >= 8.8)
+    ghc-options:
+      -Wmissing-deriving-strategies
+
+common native
+  if impl(ghcjs)
+    buildable: False
+
+
+library
+  import: defaults, native
+  hs-source-dirs: src
+  build-depends:
+      aeson
+    , ansi-terminal
+    , async
+    , base
+    , bytestring
+    , common
+    , conduit-extra
+    , containers
+    , data-default
+    , dependent-map
+    , dependent-sum
+    , errors
+    , hs-abci-server
+    , hs-abci-types
+    , lens
+    , modern-uri
+    , mtl
+    , obelisk-executable-config-lookup
+    , obelisk-route
+    , shelly
+    , text
+    , these
+    , these-lens
+    , time
+    , tomland
+    , transformers
+    , which
+    , witherable
+
+  exposed-modules:
+    Saline.Network.CometBFT.CLI
+    Saline.Network.CometBFT.Config
+    Saline.Network.CometBFT.Node
+    Saline.Network.Node.Handlers
+    Saline.Network.Node.Main
+    Saline.Network.Node.Storage
+    Saline.Network.Node.Testnet
+
+executable saline-node
+  import: defaults, native
+  main-is: main.hs
+  hs-source-dirs: src-bin
+  build-depends:
+      base
+    , common
+    , saline-node

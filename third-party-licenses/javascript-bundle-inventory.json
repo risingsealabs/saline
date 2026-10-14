@@ -1,0 +1,3719 @@
+{
+  "format": 1,
+  "review_date": "2026-10-15",
+  "scope": "All Browserify module entries in the four shipped bundles; source archives are matching examples, not a reconstructed historical lockfile.",
+  "matching": "Complete upstream source file occurs within bundle module after CRLF normalization and removal of sourceMappingURL comments. Browserify-injected wrappers remain outside that file. Duplicate references are resolved to their source module. Empty stubs and explicit package metadata are separately classified.",
+  "packages": {
+    "@chainsafe/bls-hd-key@0.3.0": {
+      "license": "Apache-2.0",
+      "archive": "https://registry.npmjs.org/@chainsafe/bls-hd-key/-/bls-hd-key-0.3.0.tgz",
+      "integrity": "sha512-LsYYnfBEEmqGFPDm8hQN3Kc+v9wPFnhn+CToD403KEynUiUSHKLAf5B6UCY5eooShDOcaGCUgAUhIw1CmpEf3Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "@noble/curves@1.6.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/@noble/curves/-/curves-1.6.0.tgz",
+      "integrity": "sha512-TlaHRXDehJuRNR9TfZDNQ45mMEd5dwUwmicsafcIX4SsNiqnCHKjE/1alYPd/lDRVhxdhUAlv8uEhMCI5zjIJQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "@noble/hashes@1.5.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/@noble/hashes/-/hashes-1.5.0.tgz",
+      "integrity": "sha512-1j6kQFb7QRru7eKN3ZDvRcP13rugwdxZqCjbiAVZfIJwgj2A65UmT4TgARXGlXgnRkORLTDTrO19ZErt7+QXgA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "asn1.js@4.10.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/asn1.js/-/asn1.js-4.10.1.tgz",
+      "integrity": "sha512-p32cOF5q0Zqs9uBiONKYLm6BClCoBCM5O9JfeUSlnQLBTxYdTK+pW+nXflm8UkKd2UYlEbYz5qEi0JuZR9ckSw==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "available-typed-arrays@1.0.7": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/available-typed-arrays/-/available-typed-arrays-1.0.7.tgz",
+      "integrity": "sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "axios@0.19.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/axios/-/axios-0.19.2.tgz",
+      "integrity": "sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "base64-js@1.5.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz",
+      "integrity": "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "bip39@3.1.0": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/bip39/-/bip39-3.1.0.tgz",
+      "integrity": "sha512-c9kiwdk45Do5GL0vJMe7tS95VjCii65mYAH7DfWl3uW8AVzXKQVUm64i3hzVybBDMp9r7j9iNxR85+ul8MdN/A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "bn.js@4.12.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz",
+      "integrity": "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "bn.js@5.2.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/bn.js/-/bn.js-5.2.1.tgz",
+      "integrity": "sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "brorand@1.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/brorand/-/brorand-1.1.0.tgz",
+      "integrity": "sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browser-pack@6.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/browser-pack/-/browser-pack-6.1.0.tgz",
+      "integrity": "sha512-erYug8XoqzU3IfcU8fUgyHqyOXqIE4tUTTQ+7mqUjQlvnXkOO6OlT9c/ZoJVHYoAaqGxr09CN53G7XIsO4KtWA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browserify-aes@1.2.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/browserify-aes/-/browserify-aes-1.2.0.tgz",
+      "integrity": "sha512-+7CHXqGuspUn/Sl5aO7Ea0xWGAtETPXNSAjHo48JfLdPWcMng33Xe4znFvQweqc/uzk5zSOI3H52CYnjCfb5hA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browserify-cipher@1.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/browserify-cipher/-/browserify-cipher-1.0.1.tgz",
+      "integrity": "sha512-sPhkz0ARKbf4rRQt2hTpAHqn47X3llLkUGn+xEJzLjwY8LRs2p0v7ljvI5EyoRO/mexrNunNECisZs+gw2zz1w==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browserify-des@1.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/browserify-des/-/browserify-des-1.0.2.tgz",
+      "integrity": "sha512-BioO1xf3hFwz4kc6iBhI3ieDFompMhrMlnDFC4/0/vd5MokpuAc3R+LYbwTA9A5Yc9pq9UYPqffKpW2ObuwX5A==",
+      "notice_sources": [
+        "license"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browserify-rsa@4.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/browserify-rsa/-/browserify-rsa-4.1.0.tgz",
+      "integrity": "sha512-AdEER0Hkspgno2aR97SAf6vi0y0k8NuOpGnVH3O99rcA5Q6sh8QxcngtHuJ6uXwnfAXNM4Gn1Gb7/MV1+Ymbog==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browserify-sign@4.2.3": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/browserify-sign/-/browserify-sign-4.2.3.tgz",
+      "integrity": "sha512-JWCZW6SKhfhjJxO8Tyiiy+XYB7cqd2S5/+WeYHsKdNKFlCBhKbblba1A/HN/90YwtxKc8tCErjffZl++UNmGiw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "browserify@17.0.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/browserify/-/browserify-17.0.0.tgz",
+      "integrity": "sha512-SaHqzhku9v/j6XsQMRxPyBrSP3gnwmE27gLJYZgMT2GeK3J0+0toN+MnuNYDfHwVGQfLiMZ7KSNSIXHemy905w==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "buffer-xor@1.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/buffer-xor/-/buffer-xor-1.0.3.tgz",
+      "integrity": "sha512-571s0T7nZWK6vB67HI5dyUF7wXiNcfaPPPTl6zYCNApANjIvYJTg7hlud/+cJpdAhS7dVzqMLmfhfHR3rAcOjQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "buffer@5.2.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/buffer/-/buffer-5.2.1.tgz",
+      "integrity": "sha512-c+Ko0loDaFfuPWiL02ls9Xd3GO3cPVmUobQ6t3rXNUk304u6hGq+8N/kFi+QEIKhzK3uwolVhLzszmfLmMLnqg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "call-bind@1.0.7": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/call-bind/-/call-bind-1.0.7.tgz",
+      "integrity": "sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "camelcase@4.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz",
+      "integrity": "sha512-FxAv7HpHrXbh3aPo4o2qxHay2lkLY3x5Mw3KeE4KQE8ysVfziWeRZDwcjauvwBSGEC/nXUPzZy8zeh4HokqOnw==",
+      "notice_sources": [
+        "license"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "cipher-base@1.0.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/cipher-base/-/cipher-base-1.0.4.tgz",
+      "integrity": "sha512-Kkht5ye6ZGmwv40uUDZztayT2ThLQGfnj/T71N/XzeZeo3nf8foyW7zGTsPYkEya3m5f3cAypH+qe7YOrM1U2Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "core-util-is@1.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz",
+      "integrity": "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "create-ecdh@4.0.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/create-ecdh/-/create-ecdh-4.0.4.tgz",
+      "integrity": "sha512-mf+TCx8wWc9VpuxfP2ht0iSISLZnt0JgWlrOKZiNqyUZWnjIaCIVNQArMHnCZKfEYRg6IM7A+NeJoN8gf/Ws0A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "create-hash@1.2.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/create-hash/-/create-hash-1.2.0.tgz",
+      "integrity": "sha512-z00bCGNHDG8mHAkP7CtT1qVu+bFQUPjYq/4Iv3C3kWjTFV10zIjfSoeqXo9Asws8gwSHDGj/hl2u4OGIjapeCg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "create-hmac@1.1.7": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/create-hmac/-/create-hmac-1.1.7.tgz",
+      "integrity": "sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "crypto-browserify@3.12.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/crypto-browserify/-/crypto-browserify-3.12.0.tgz",
+      "integrity": "sha512-fz4spIh+znjO2VjL+IdhEpRJ3YN6sMzITSBijk6FK2UvTqruSQW+/cCZTSNsMiZNvUeq0CqurF+dAbyiGOY6Wg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "debug@3.2.7": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/debug/-/debug-3.2.7.tgz",
+      "integrity": "sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "define-data-property@1.1.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz",
+      "integrity": "sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "des.js@1.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/des.js/-/des.js-1.1.0.tgz",
+      "integrity": "sha512-r17GxjhUCjSRy8aiJpr8/UadFIzMzJGexI3Nmz4ADi9LYSFx4gTBp80+NaX/YsXWWLhpZ7v/v/ubEc/bCNfKwg==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "diffie-hellman@5.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/diffie-hellman/-/diffie-hellman-5.0.3.tgz",
+      "integrity": "sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "duplexify@3.7.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/duplexify/-/duplexify-3.7.1.tgz",
+      "integrity": "sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "elliptic@6.5.6": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.6.tgz",
+      "integrity": "sha512-mpzdtpeCLuS3BmE3pO3Cpp5bbjlOPY2Q0PgoF+Od1XZrHLYI28Xe3ossCmYCQt11FQKEYd9+PF8jymTvtWJSHQ==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "end-of-stream@1.4.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz",
+      "integrity": "sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "es-define-property@1.0.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.0.tgz",
+      "integrity": "sha512-jxayLKShrEqqzJ0eumQbVhTYQM27CfT1T35+gCgDFoL82JLsXqTJ76zv6A0YLOgEnLUMvLzsDsGIrl8NFpT2gQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "es-errors@1.3.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
+      "integrity": "sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "events@3.3.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/events/-/events-3.3.0.tgz",
+      "integrity": "sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "evp_bytestokey@1.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/evp_bytestokey/-/evp_bytestokey-1.0.3.tgz",
+      "integrity": "sha512-/f2Go4TognH/KvCISP7OUsHn85hT9nUkxxA9BEWxFn+Oj9o8ZNLm/40hdlgSLyuOimsrTKLUMEorQexp/aPQeA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "for-each@0.3.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/for-each/-/for-each-0.3.3.tgz",
+      "integrity": "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "function-bind@1.1.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/function-bind/-/function-bind-1.1.2.tgz",
+      "integrity": "sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "get-intrinsic@1.2.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/get-intrinsic/-/get-intrinsic-1.2.4.tgz",
+      "integrity": "sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "gopd@1.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/gopd/-/gopd-1.0.1.tgz",
+      "integrity": "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "has-property-descriptors@1.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz",
+      "integrity": "sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "has-proto@1.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/has-proto/-/has-proto-1.0.3.tgz",
+      "integrity": "sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "has-symbols@1.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.3.tgz",
+      "integrity": "sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "has-tostringtag@1.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/has-tostringtag/-/has-tostringtag-1.0.2.tgz",
+      "integrity": "sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "hash-base@3.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/hash-base/-/hash-base-3.1.0.tgz",
+      "integrity": "sha512-1nmYp/rhMDiE7AYkDw+lLwlAzz0AntGIe51F3RfFfEqyQ3feY2eI/NcwC6umIQVOASPMsWJLJScWKSSvzL9IVA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "hash.js@1.1.7": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/hash.js/-/hash.js-1.1.7.tgz",
+      "integrity": "sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "hasown@2.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/hasown/-/hasown-2.0.2.tgz",
+      "integrity": "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "hmac-drbg@1.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/hmac-drbg/-/hmac-drbg-1.0.1.tgz",
+      "integrity": "sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "ieee754@1.2.1": {
+      "license": "BSD-3-Clause",
+      "archive": "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz",
+      "integrity": "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "inherits@2.0.4": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+      "integrity": "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "int53@0.2.4": {
+      "license": "BSD-3-Clause",
+      "archive": "https://registry.npmjs.org/int53/-/int53-0.2.4.tgz",
+      "integrity": "sha512-a5jlKftS7HUOhkUyYD7j2sJ/ZnvWiNlZS1ldR+g1ifQ+/UuZXIE+YTc/lK1qGj/GwAU5F8Z0e1eVq2t1J5Ob2g==",
+      "notice_sources": [
+        "package.json declaration; standard BSD-3-Clause terms"
+      ],
+      "notice_basis": "metadata declaration and standard terms"
+    },
+    "is-arguments@1.1.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/is-arguments/-/is-arguments-1.1.1.tgz",
+      "integrity": "sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "is-callable@1.2.7": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/is-callable/-/is-callable-1.2.7.tgz",
+      "integrity": "sha512-1BC0BVFhS/p0qtw6enp8e+8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX/8fgKeu2S8i9JTA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "is-generator-function@1.0.10": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/is-generator-function/-/is-generator-function-1.0.10.tgz",
+      "integrity": "sha512-jsEjy9l3yiXEQ+PsXdmBwEPcOxaXWLspKdplFUVI9vq1iZgIekeC0L167qeu86czQaxed3q/Uzuw0swL0irL8A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "is-typed-array@1.1.13": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/is-typed-array/-/is-typed-array-1.1.13.tgz",
+      "integrity": "sha512-uZ25/bUAlUY5fR4OKT4rZQEBrzQWYV9ZJYGGsUmEJ6thodVJ1HX64ePQ6Z0qPWP+m+Uq6e9UugrE38jeYsDSMw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "isarray@1.0.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz",
+      "integrity": "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "json-stable-stringify@1.1.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/json-stable-stringify/-/json-stable-stringify-1.1.1.tgz",
+      "integrity": "sha512-SU/971Kt5qVQfJpyDveVhQ/vya+5hvrjClFOcr8c0Fq5aODJjMwutrOfCU+eCnVD5gpx1Q3fEqkyom77zH1iIg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "json-stringify-safe@5.0.1": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
+      "integrity": "sha512-ZClg6AaYvamvYEE82d3Iyd3vSSIjQ+odgjaTzRuO3s7toCdFKczob2i0zCh7JE8kWn17yvAWhUVxvqGwUalsRA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "jsonify@0.0.1": {
+      "license": "Public Domain",
+      "archive": "https://registry.npmjs.org/jsonify/-/jsonify-0.0.1.tgz",
+      "integrity": "sha512-2/Ki0GcmuqSrgFyelQq9M05y7PS0mEwuIzrf3f1fPqkVDVRvZrPZtVSMHxdgo8Aq0sxAOb/cr2aqqA3LeWHVPg==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "md5.js@1.3.5": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/md5.js/-/md5.js-1.3.5.tgz",
+      "integrity": "sha512-xitP+WxNPcTTOgnTJcrhM0xvdPepipPSf3I8EIpGKeFLjt3PlJLIDG3u8EX53ZIubkb+5U2+3rELYpEhHhzdkg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "miller-rabin@4.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/miller-rabin/-/miller-rabin-4.0.1.tgz",
+      "integrity": "sha512-115fLhvZVqWwHPbClyntxEVfVDfl9DLLTuJvq3g2O/Oxi8AiNouAHvDSzHS0viUJc+V5vm3eq91Xwqn9dp4jRA==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "minimalistic-assert@1.0.1": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz",
+      "integrity": "sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "minimalistic-crypto-utils@1.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz",
+      "integrity": "sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg==",
+      "notice_sources": [
+        "README.md license section"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "ms@2.1.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "integrity": "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==",
+      "notice_sources": [
+        "license.md"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "ndjson@1.5.0": {
+      "license": "BSD-3-Clause",
+      "archive": "https://registry.npmjs.org/ndjson/-/ndjson-1.5.0.tgz",
+      "integrity": "sha512-hUPLuaziboGjNF7wHngkgVc0FOclR8dDk/HfEvTtDr/iUrqBWiRcRSTK3/nLOqKH33th714BrMmTPtObI9gZxQ==",
+      "notice_sources": [
+        "package.json declaration; standard BSD-3-Clause terms"
+      ],
+      "notice_basis": "metadata declaration and standard terms"
+    },
+    "object-assign@4.1.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz",
+      "integrity": "sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==",
+      "notice_sources": [
+        "license"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "object-inspect@1.13.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.2.tgz",
+      "integrity": "sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "object-keys@1.1.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz",
+      "integrity": "sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "old@0.1.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/old/-/old-0.1.3.tgz",
+      "integrity": "sha512-5/GL9HGJZSqDpB8j6IeztAKYUiiCmHL+OufTvknCB+oi9pnTCJmaDbWxA/VoNIYBDovy2KQrb0n8PkgDJfwOnQ==",
+      "notice_sources": [
+        "package.json declaration; standard MIT terms"
+      ],
+      "notice_basis": "metadata declaration and standard terms"
+    },
+    "once@1.4.0": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/once/-/once-1.4.0.tgz",
+      "integrity": "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "os-browserify@0.3.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/os-browserify/-/os-browserify-0.3.0.tgz",
+      "integrity": "sha512-gjcpUc3clBf9+210TRaDWbf+rZZZEshZ+DlXMRCeAjp0xhTrnQsKHypIy1J3d5hKdUzj69t708EHtU8P6bUn0A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "parse-asn1@5.1.7": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/parse-asn1/-/parse-asn1-5.1.7.tgz",
+      "integrity": "sha512-CTM5kuWR3sx9IFamcl5ErfPl6ea/N8IYwiJ+vpeB2g+1iknv7zBl5uPwbMbRVznRVbrNY6lGuDoE5b30grmbqg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "path-browserify@1.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/path-browserify/-/path-browserify-1.0.1.tgz",
+      "integrity": "sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "pbkdf2@3.1.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/pbkdf2/-/pbkdf2-3.1.2.tgz",
+      "integrity": "sha512-iuh7L6jA7JEGu2WxDwtQP1ddOpaJNC4KlDEFfdQajSGgGPNi4OyDc2R7QnbY2bR9QjBVGwgvTdNJZoE7RaxUMA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "possible-typed-array-names@1.0.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/possible-typed-array-names/-/possible-typed-array-names-1.0.0.tgz",
+      "integrity": "sha512-d7Uw+eZoloe0EHDIYoe+bQ5WXnGMOpmiZFTuMWCwpjzzkL2nTjcKiAk4hh8TjnGye2TwWOk3UXucZ+3rbmBa8Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "process-nextick-args@2.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz",
+      "integrity": "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==",
+      "notice_sources": [
+        "license.md"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "process@0.11.10": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/process/-/process-0.11.10.tgz",
+      "integrity": "sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "public-encrypt@4.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/public-encrypt/-/public-encrypt-4.0.3.tgz",
+      "integrity": "sha512-zVpa8oKZSz5bTMTFClc1fQOnyyEzpl5ozpi1B5YcvBrdohMjH2rfsBtyXcuNuwjsDIXmBYlF2N5FlJYhR29t8Q==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "pump@2.0.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/pump/-/pump-2.0.1.tgz",
+      "integrity": "sha512-ruPMNRkN3MHP1cWJc9OWr+T/xDP0jhXYCLfJcBuX54hhfIBnaQmAUMfDcG4DM5UMWByBbJY69QSphm3jtDKIkA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "pumpify@1.5.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/pumpify/-/pumpify-1.5.1.tgz",
+      "integrity": "sha512-oClZI37HvuUJJxSKKrC17bZ9Cu0ZYhEAGPsPUy9KlMUmv9dKX2o77RUmq7f3XjIxbwyGwYzbzQ1L2Ks8sIradQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "punycode@1.4.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz",
+      "integrity": "sha512-jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==",
+      "notice_sources": [
+        "LICENSE-MIT.txt"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "qs@6.12.3": {
+      "license": "BSD-3-Clause",
+      "archive": "https://registry.npmjs.org/qs/-/qs-6.12.3.tgz",
+      "integrity": "sha512-AWJm14H1vVaO/iNZ4/hO+HyaTehuy9nRqVdkTqlJt0HWvBiBIEXFmb4C0DGeYo3Xes9rrEW+TxHsaigCbN5ICQ==",
+      "notice_sources": [
+        "LICENSE.md"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "randombytes@2.1.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/randombytes/-/randombytes-2.1.0.tgz",
+      "integrity": "sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "randomfill@1.0.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/randomfill/-/randomfill-1.0.4.tgz",
+      "integrity": "sha512-87lcbR8+MhcWcUiQ+9e+Rwx8MyR2P7qnt15ynUlbm3TU/fjbgz4GsvfSUDTemtCCtVCqb4ZcEFlyPNTh9bBTLw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "readable-stream@2.3.8": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz",
+      "integrity": "sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "readable-stream@3.6.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz",
+      "integrity": "sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "ripemd160@2.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/ripemd160/-/ripemd160-2.0.2.tgz",
+      "integrity": "sha512-ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "safe-buffer@5.1.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz",
+      "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "safe-buffer@5.2.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+      "integrity": "sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "set-function-length@1.2.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/set-function-length/-/set-function-length-1.2.2.tgz",
+      "integrity": "sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "sha.js@2.4.11": {
+      "license": "(MIT AND BSD-3-Clause)",
+      "archive": "https://registry.npmjs.org/sha.js/-/sha.js-2.4.11.tgz",
+      "integrity": "sha512-QMEp5B7cftE7APOjk5Y6xgrbWu+WkLVQwk8JNjZ8nKRciZaByEW6MubieAiToS7+dwvrjGhH8jRXz3MVd0AYqQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "side-channel@1.0.6": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/side-channel/-/side-channel-1.0.6.tgz",
+      "integrity": "sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "split2@2.2.0": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/split2/-/split2-2.2.0.tgz",
+      "integrity": "sha512-RAb22TG39LhI31MbreBgIuKiIKhVsawfTgEGqKHTK87aG+ul/PB8Sqoi3I7kVdRWiCfrKxK3uo4/YUkpNvhPbw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "stream-browserify@3.0.0": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/stream-browserify/-/stream-browserify-3.0.0.tgz",
+      "integrity": "sha512-H73RAHsVBapbim0tU2JwwOiXUj+fikfiaoYAKHF3VJfA0pe2BCzkhAHBlLG6REzE+2WNZcxOXjK7lkso+9euLA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "stream-shift@1.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/stream-shift/-/stream-shift-1.0.3.tgz",
+      "integrity": "sha512-76ORR0DO1o1hlKwTbi/DM3EXWGf3ZJYO8cXX5RJwnul2DEg2oyoZyjLNoQM8WsvZiFKCRfC1O0J7iCvie3RZmQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "string_decoder@1.1.1": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz",
+      "integrity": "sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "supercop.js@2.0.1": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/supercop.js/-/supercop.js-2.0.1.tgz",
+      "integrity": "sha512-szt/3kVibaMhgibTm11CfAR4664R7uzCg9jfJUcuAiNGY8pgZxA5IcJXq9n3AyZwzQJQi22KkAPhlCmzLeRGFA==",
+      "notice_sources": [
+        "package.json declaration; standard ISC terms"
+      ],
+      "notice_basis": "metadata declaration and standard terms"
+    },
+    "tendermint@5.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/tendermint/-/tendermint-5.0.2.tgz",
+      "integrity": "sha512-ZHoz/azpd9xxfV7Q3W51ZJh/8AC+GRoRu0If778uyjakhkFR8dRfhV2RNC4PFXVmH3EIkLOXVkLJB7rELulxTQ==",
+      "notice_sources": [
+        "package.json declaration; standard MIT terms"
+      ],
+      "notice_basis": "metadata declaration and standard terms"
+    },
+    "through2@2.0.5": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/through2/-/through2-2.0.5.tgz",
+      "integrity": "sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==",
+      "notice_sources": [
+        "LICENSE.md"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "timers-browserify@1.4.2": {
+      "license": [
+        {
+          "type": "MIT",
+          "url": "https://github.com/jryans/timers-browserify/blob/master/LICENSE.md"
+        }
+      ],
+      "archive": "https://registry.npmjs.org/timers-browserify/-/timers-browserify-1.4.2.tgz",
+      "integrity": "sha512-PIxwAupJZiYU4JmVZYwXp9FKsHMXb5h0ZEFyuXTAn8WLHOlcij+FEcbrvDsom1o5dr1YggEtFbECvGCW2sT53Q==",
+      "notice_sources": [
+        "LICENSE.md"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "umd@3.0.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/umd/-/umd-3.0.3.tgz",
+      "integrity": "sha512-4IcGSufhFshvLNcMCV80UnQVlZ5pMOC8mvNPForqwA4+lzYQuetTESLDQkeLmihq8bRcnpbQa48Wb8Lh16/xow==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "url@0.11.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/url/-/url-0.11.3.tgz",
+      "integrity": "sha512-6hxOLGfZASQK/cijlZnZJTq8OXAkt/3YGfQX45vvMYXpZoo8NdWZcY73K108Jf759lS1Bv/8wXnHDTSz17dSRw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "util-deprecate@1.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz",
+      "integrity": "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "util@0.10.4": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/util/-/util-0.10.4.tgz",
+      "integrity": "sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "util@0.12.5": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/util/-/util-0.12.5.tgz",
+      "integrity": "sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "varstruct@6.1.3": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/varstruct/-/varstruct-6.1.3.tgz",
+      "integrity": "sha512-4l1Q7uxrVUBZXsMcb2cakrZL6gd4G+Ykn/m9cGnT4EY8iRBPkxOxKVDwOnL9AsIPKmREBx5BDqjfNMKKP6Zy2w==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "vm-browserify@1.1.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz",
+      "integrity": "sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "websocket-stream@5.5.2": {
+      "license": "BSD-2-Clause",
+      "archive": "https://registry.npmjs.org/websocket-stream/-/websocket-stream-5.5.2.tgz",
+      "integrity": "sha512-8z49MKIHbGk3C4HtuHWDtYX8mYej1wWabjthC/RupM9ngeukU4IWoM46dgth1UOS/T4/IqgEdCDJuMe2039OQQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "which-typed-array@1.1.15": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.15.tgz",
+      "integrity": "sha512-oV0jmFtUky6CXfkqehVvBP/LSWJ2sy4vWMioiENyJLePrBO/yKyV9OyJySfAKosh+RYkIl5zJCNZ8/4JncrpdA==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "wrappy@1.0.2": {
+      "license": "ISC",
+      "archive": "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz",
+      "integrity": "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    },
+    "xtend@4.0.2": {
+      "license": "MIT",
+      "archive": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz",
+      "integrity": "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==",
+      "notice_sources": [
+        "LICENSE"
+      ],
+      "notice_basis": "upstream license text"
+    }
+  },
+  "bundles": {
+    "tendermint": {
+      "file": "static/js/tendermint.js",
+      "sha256": "2f90c109ea1990dac146baec3fcf211317c0282d37f9647609bac062d2b21a0f",
+      "module_count": 404,
+      "modules": {
+        "1": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "index.js",
+          "module_sha256": "f3e636ca292180ec29f247bd81d9b2f7c1ce15759b29e76588d884e2d7cc12f5"
+        },
+        "2": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/adapters/xhr.js",
+          "module_sha256": "05a8f5246d7c84504d8c3ece825dfdeb2fa1ac5e9be57f8c79891a995907553f"
+        },
+        "3": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/axios.js",
+          "module_sha256": "e7f96fd3e2aa270fe740f330ded4d1a7c27dc3adcb42a231139d10458f912834"
+        },
+        "4": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/cancel/Cancel.js",
+          "module_sha256": "f4f02b5916b5b8815bb9b7ad1106baffe338fa47c7f3417855370216bd195f60"
+        },
+        "5": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/cancel/CancelToken.js",
+          "module_sha256": "93f2c8d7b208426fa674b5a683fa14834e7bc278b584a8c30acd5eabbf0e0c15"
+        },
+        "6": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/cancel/isCancel.js",
+          "module_sha256": "d74e0ecc12bc69835e9f9774b3da8bd0811355cf5191c087df7357b11135a1cb"
+        },
+        "7": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/Axios.js",
+          "module_sha256": "0be9fcbcc13ae4bc7220b101cedb4a624bffb38ee5e9519a8812646be4a03b84"
+        },
+        "8": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/InterceptorManager.js",
+          "module_sha256": "72125bbe87d98d9e864a453bcf7a8d6aa6eb3fc9396bfe91da221666592d025e"
+        },
+        "9": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/buildFullPath.js",
+          "module_sha256": "4bbb96e00e0d32f1ec83b0334753313896ffbc5e017dc5b8b45be950447d8684"
+        },
+        "10": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/createError.js",
+          "module_sha256": "223c40a01c05e9709999e4f8d5732b7ab78c773cc7f6b77aaa05d999f497ade9"
+        },
+        "11": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/dispatchRequest.js",
+          "module_sha256": "ff5057db0fc4e24011533d571389c404a22eabe076198e18c330a3856c76a6f9"
+        },
+        "12": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/enhanceError.js",
+          "module_sha256": "df9e370a8ea409b7fa79676c427486f1cc01996c880be1cc1f54f38873517163"
+        },
+        "13": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/mergeConfig.js",
+          "module_sha256": "6c47a7af4423b8480f02396a36622eefc37ddc6c5f28e34a1bede95516547765"
+        },
+        "14": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/settle.js",
+          "module_sha256": "a656630789a8bbf3a66e5fd1eb85fd6b3b9a30108e248c8f09d9ddf03d349638"
+        },
+        "15": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/core/transformData.js",
+          "module_sha256": "80beb078ab61ad8a82e65fb2d893dca63f06cf832c6c38efc971ff4190fcb5d9"
+        },
+        "16": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/defaults.js",
+          "module_sha256": "9f2a531f8bf1164d00b331d36d75c2f41137c8b168e3ef896b1dbce8909c66ec"
+        },
+        "17": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/bind.js",
+          "module_sha256": "16fc1bf970ca5cf41afb80d4ea1f8e6f9863c2e5a3cff1ffddfe29189c7156f0"
+        },
+        "18": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/buildURL.js",
+          "module_sha256": "5b4df84f9468fcbfebe48cfff6a3ad91ee0aedfc2898372c507e411631c1acdf"
+        },
+        "19": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/combineURLs.js",
+          "module_sha256": "89a077d05e89feee771974de23524eeb553f9d2a1f6a180bba339d940658814c"
+        },
+        "20": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/cookies.js",
+          "module_sha256": "c859463f662080ec222803a3448183e1841b3ba5f5fc2672f30f90853c6e20b5"
+        },
+        "21": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/isAbsoluteURL.js",
+          "module_sha256": "80b01f1d340712caaae9c091f30c8ef7367b5bbacb37a7b513a9f6115cf28b38"
+        },
+        "22": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/isURLSameOrigin.js",
+          "module_sha256": "49fb6f01d9d10aacc20c8b01dbace3926f4e3c16519c9f79d850451debaeb300"
+        },
+        "23": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/normalizeHeaderName.js",
+          "module_sha256": "502818019e091e86e68594b3233bad18cdcb04ab1a584231ae2a1cac4d260b0a"
+        },
+        "24": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/parseHeaders.js",
+          "module_sha256": "7027742d4326439bc9f9af2a3d69ebae9b737f06c23db3db891047c546804865"
+        },
+        "25": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/helpers/spread.js",
+          "module_sha256": "a9717c6ea6c32ae560f5c61304b05df09b69b8b3f25c5488a2f822f359297311"
+        },
+        "26": {
+          "kind": "source-match",
+          "package": "axios@0.19.2",
+          "source_file": "lib/utils.js",
+          "module_sha256": "33374ffde3e8095e533a2b5630236785d36f0b241e5ad0acddad8c020d22780b"
+        },
+        "27": {
+          "kind": "source-match",
+          "package": "call-bind@1.0.7",
+          "source_file": "callBound.js",
+          "module_sha256": "b5d249e32de03620c05cef80dbb3b2de3f5abb36fb943ed1088f118d935eb9e8"
+        },
+        "28": {
+          "kind": "source-match",
+          "package": "call-bind@1.0.7",
+          "source_file": "index.js",
+          "module_sha256": "c2bee2ba1d2e03790b8607091dbeae34fc0ba7537dc8ea830d9a105ccb4fdb28"
+        },
+        "29": {
+          "kind": "source-match",
+          "package": "camelcase@4.1.0",
+          "source_file": "index.js",
+          "module_sha256": "17db8d44151342cbdd21cea42a5a88bdb1ee221874a868443fc46bd4cf7ec954"
+        },
+        "30": {
+          "kind": "source-match",
+          "package": "cipher-base@1.0.4",
+          "source_file": "index.js",
+          "module_sha256": "4c0785da1942d6dcb16589653d00cdaf5bc587539476507e4767cee32cdef840"
+        },
+        "31": {
+          "kind": "source-match",
+          "package": "core-util-is@1.0.3",
+          "source_file": "lib/util.js",
+          "module_sha256": "2f44480b9fe0364c07acf9f675620ee28c65e4e4e90a27b4885492fc15d2b771"
+        },
+        "32": {
+          "kind": "source-match",
+          "package": "create-hash@1.2.0",
+          "source_file": "browser.js",
+          "module_sha256": "5e3bfaf9bb37b5ab5bf2549e5960373083decbb8a92d154b1ceb5e8d8670054b"
+        },
+        "33": {
+          "kind": "source-match",
+          "package": "debug@3.2.7",
+          "source_file": "src/browser.js",
+          "module_sha256": "39f406a31a9da91565bbcbfb77a8ec74591672eaa22239a86c71347f31f00b48"
+        },
+        "34": {
+          "kind": "source-match",
+          "package": "debug@3.2.7",
+          "source_file": "src/common.js",
+          "module_sha256": "8a20792ba4c6505ac32c733259cfece8c3cddc3d2918c5515bce03625480ef47"
+        },
+        "35": {
+          "kind": "source-match",
+          "package": "define-data-property@1.1.4",
+          "source_file": "index.js",
+          "module_sha256": "3fbc38d67304d0e9a195d792754ffa7ff52b934296f6eda9ff9d86a18d58c261"
+        },
+        "36": {
+          "kind": "source-match",
+          "package": "duplexify@3.7.1",
+          "source_file": "index.js",
+          "module_sha256": "ba1d582abd166c4142ebcd5b8da5612104bb438b1c2cd682098db11a42f176ba"
+        },
+        "37": {
+          "kind": "source-match",
+          "package": "isarray@1.0.0",
+          "source_file": "index.js",
+          "module_sha256": "6d4cc7bc2b3b0b142e45765075b406fb1554f8b471f46986857c85d7a0d8f1d8"
+        },
+        "38": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/_stream_duplex.js",
+          "module_sha256": "65a5d294dfa85b60dd2ab81ef13f9291367ed316b56ca6645fe677b4afec9829"
+        },
+        "39": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/_stream_passthrough.js",
+          "module_sha256": "ff8410809e6d57538a1d5fadda5451f7a6ae83fcba35d249820d929ef1db25e8"
+        },
+        "40": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/_stream_readable.js",
+          "module_sha256": "0f3c1ea89a77b3ed46a247fc1a53fb1633dae9824c4575067c0eaff9fdb886a0"
+        },
+        "41": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/_stream_transform.js",
+          "module_sha256": "7d4490b89c4c23005b1a5c89e668439d7103d4854e7f80e54f0e66c27ecc85b8"
+        },
+        "42": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/_stream_writable.js",
+          "module_sha256": "d5da33b6f0f49c04f0ab28c52d7c9753fd44a765050926c103d9b3a040633b8c"
+        },
+        "43": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/internal/streams/BufferList.js",
+          "module_sha256": "c7026b6d62f52f97350cc41007d2b2c377b8e34833ef299eb3286f35034e5b06"
+        },
+        "44": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/internal/streams/destroy.js",
+          "module_sha256": "6ed8bc4529c219e67a02a577a07056b0c5c2db6122cc21d107fdba4d2e02782e"
+        },
+        "45": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "lib/internal/streams/stream-browser.js",
+          "module_sha256": "1bb026a0573590a88a529dfce233e364287506cfaa992d0f88aa137cabb52de1"
+        },
+        "46": {
+          "kind": "source-match",
+          "package": "readable-stream@2.3.8",
+          "source_file": "readable-browser.js",
+          "module_sha256": "108496d1058866a8aa7b660513fe6f1aa3bf9f30e93afac33d0473d184ac708c"
+        },
+        "47": {
+          "kind": "source-match",
+          "package": "safe-buffer@5.1.2",
+          "source_file": "index.js",
+          "module_sha256": "9691f92775784d9a033ec01965355c6f7d01302a4518760dc706bcf52ad82190"
+        },
+        "48": {
+          "kind": "source-match",
+          "package": "string_decoder@1.1.1",
+          "source_file": "lib/string_decoder.js",
+          "module_sha256": "8e96a9f262c3d9f6a0aa40235bb6821bc9c354113c75a01ffe7c5c173ba43834"
+        },
+        "49": {
+          "kind": "source-match",
+          "package": "end-of-stream@1.4.4",
+          "source_file": "index.js",
+          "module_sha256": "f8d52bb77384b8ec7bb442f6d954f94c335d4068d4a69f0e9a1e0896b9e98ede"
+        },
+        "50": {
+          "kind": "source-match",
+          "package": "es-define-property@1.0.0",
+          "source_file": "index.js",
+          "module_sha256": "baba51175cb116c1c2385e6ec2e51f065e18dcb52ccd154bb9bf6fdff4e4cec7"
+        },
+        "51": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "eval.js",
+          "module_sha256": "cdc1aea12e24e560cff80a97d688482b23ba07e496c2d7f041cc2bd702613e66"
+        },
+        "52": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "index.js",
+          "module_sha256": "20576f6bb3aaa6163b8f47c1b16af4f9db0fc0e7657f419cf26761b36d940027"
+        },
+        "53": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "range.js",
+          "module_sha256": "94b72d19cd68c6139c3d258994a77bfd9383ac0dcb94f088a81989ecc4bd5d6d"
+        },
+        "54": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "ref.js",
+          "module_sha256": "38e154bb46ade6dcc54f1d79496e11a3b46b4f56716f43f2943afb90238eb799"
+        },
+        "55": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "syntax.js",
+          "module_sha256": "3c010776e5c8d658300ed1ad06d4f1c3be0514ec72d479d89c00458c16fb27b2"
+        },
+        "56": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "type.js",
+          "module_sha256": "4ce3be2e5304aab8600dbbd170ef71b29f2c8e8c03de0bb476d62a265d8e0ced"
+        },
+        "57": {
+          "kind": "source-match",
+          "package": "es-errors@1.3.0",
+          "source_file": "uri.js",
+          "module_sha256": "0429048de46f5856e7647609250687ac6faced988ab15390898d2c6da77332de"
+        },
+        "58": {
+          "kind": "source-match",
+          "package": "function-bind@1.1.2",
+          "source_file": "implementation.js",
+          "module_sha256": "b7e3a10684338225a3ec10914ad00c452ab925889212e7af4cb2d452d43c3dd7"
+        },
+        "59": {
+          "kind": "source-match",
+          "package": "function-bind@1.1.2",
+          "source_file": "index.js",
+          "module_sha256": "696661f56e3ba3d232b490b051ab1395c022b5b19a2ff866fb04b9c28f04712d"
+        },
+        "60": {
+          "kind": "source-match",
+          "package": "get-intrinsic@1.2.4",
+          "source_file": "index.js",
+          "module_sha256": "8bdf30ded8ca17103e5b0098ba5b6c3045339477072da8a9576b70ce1458c2bf"
+        },
+        "61": {
+          "kind": "source-match",
+          "package": "gopd@1.0.1",
+          "source_file": "index.js",
+          "module_sha256": "2484b98f1c56e83bbdc9257e1c68ba8e87720cd48772c3f7bcbe521eb35e852a"
+        },
+        "62": {
+          "kind": "source-match",
+          "package": "has-property-descriptors@1.0.2",
+          "source_file": "index.js",
+          "module_sha256": "47192392826def39034e9d04729079d1b02639c0d0debd0abad553fece3b70aa"
+        },
+        "63": {
+          "kind": "source-match",
+          "package": "has-proto@1.0.3",
+          "source_file": "index.js",
+          "module_sha256": "d69176885fbd1c8840adf23574bc1dc94868c763e058103b4fba9d3074a70683"
+        },
+        "64": {
+          "kind": "source-match",
+          "package": "has-symbols@1.0.3",
+          "source_file": "index.js",
+          "module_sha256": "99434ee8dd4fa9a6b3f3d3bc66123cf5fd1f6240fe03e5a90bfda0ba03b68f0b"
+        },
+        "65": {
+          "kind": "source-match",
+          "package": "has-symbols@1.0.3",
+          "source_file": "shams.js",
+          "module_sha256": "086289437c95d2fb7190d9c0e7214e73dcb66ee0e13b8ff510d8af2c7efd35cd"
+        },
+        "66": {
+          "kind": "source-match",
+          "package": "hash-base@3.1.0",
+          "source_file": "index.js",
+          "module_sha256": "e93599d0db3b1a5c7dbe170331bb1afd3ae005bf7d02f5335e311b22895c28ce"
+        },
+        "67": {
+          "kind": "source-match",
+          "package": "hasown@2.0.2",
+          "source_file": "index.js",
+          "module_sha256": "51956bf53c8fff10bef38d43d043704c7fc720f5e2bf9816a677a4bfe34b939b"
+        },
+        "68": {
+          "kind": "source-match",
+          "package": "inherits@2.0.4",
+          "source_file": "inherits_browser.js",
+          "module_sha256": "172680ac8e91fc015b42c03f2e16fa9a221149d269c13ff1acf5f2149f33c1a3"
+        },
+        "69": {
+          "kind": "source-match",
+          "package": "int53@0.2.4",
+          "source_file": "index.js",
+          "module_sha256": "723cc12b452bebe323e2078aab145f685fdc36f47d66ccfe40a686bcb35dd297"
+        },
+        "70": {
+          "kind": "browserify-deduplication",
+          "target": "37",
+          "package": "isarray@1.0.0",
+          "module_sha256": "e7ee50c93894a6987464d2b4b005a0ddbe67d4ec4e4c338dc25c85a9fd624285"
+        },
+        "71": {
+          "kind": "source-match",
+          "package": "json-stable-stringify@1.1.1",
+          "source_file": "index.js",
+          "module_sha256": "80dc4b8bbe6c10933ee1c700b023b5fbde99aa9a87b8f3d1cedd9b686fb260f8"
+        },
+        "72": {
+          "kind": "source-match",
+          "package": "json-stringify-safe@5.0.1",
+          "source_file": "stringify.js",
+          "module_sha256": "63ee9df4acc232eb02a7c97e252c96dafeb771b5ee46458cef6600ccccb0f015"
+        },
+        "73": {
+          "kind": "source-match",
+          "package": "jsonify@0.0.1",
+          "source_file": "index.js",
+          "module_sha256": "311c38811d3a0900d16cde83ee8a359cebe7f87e23b63e43c03e3229c01cb68d"
+        },
+        "74": {
+          "kind": "source-match",
+          "package": "jsonify@0.0.1",
+          "source_file": "lib/parse.js",
+          "module_sha256": "f05e28da2de6c04899f5f4d9704e99fc663548c4f5da69b24bdbe123ee7cd6f2"
+        },
+        "75": {
+          "kind": "source-match",
+          "package": "jsonify@0.0.1",
+          "source_file": "lib/stringify.js",
+          "module_sha256": "dcdb414da67ae4874a6c6cfd814bd952eebe0c588ca342b4eb45e50fd843ff0b"
+        },
+        "76": {
+          "kind": "source-match",
+          "package": "md5.js@1.3.5",
+          "source_file": "index.js",
+          "module_sha256": "7c47ba9d2f535116ff0317728f303a8adbbc18c553de4c95b9525a60ab68427b"
+        },
+        "77": {
+          "kind": "source-match",
+          "package": "ms@2.1.3",
+          "source_file": "index.js",
+          "module_sha256": "43303651df5421a5c1d61bc5258d67c1d10ae5ee480449808610d5bd91beea96"
+        },
+        "78": {
+          "kind": "source-match",
+          "package": "ndjson@1.5.0",
+          "source_file": "index.js",
+          "module_sha256": "517aaa155551e2dc9c5eb9654f1ac509eb093ab23cd3ae2fde053ebca792a8aa"
+        },
+        "79": {
+          "kind": "source-match",
+          "package": "object-assign@4.1.1",
+          "source_file": "index.js",
+          "module_sha256": "632889988e7d41a45961ed88f15eaffbfa5ef0853d50966a9e7449920260b24b"
+        },
+        "80": {
+          "kind": "source-match",
+          "package": "object-keys@1.1.1",
+          "source_file": "implementation.js",
+          "module_sha256": "30858461fd86d79563314b274fcc308122b8653e52a0495e33d3e17d41a32875"
+        },
+        "81": {
+          "kind": "source-match",
+          "package": "object-keys@1.1.1",
+          "source_file": "index.js",
+          "module_sha256": "4d9869202e6d3a6e1223850ca1cf38293d60bfd0b896cae44c065ef2f07f0044"
+        },
+        "82": {
+          "kind": "source-match",
+          "package": "object-keys@1.1.1",
+          "source_file": "isArguments.js",
+          "module_sha256": "082117df410d6ace02e58d6339b3a51c2590d7fc0d15ee8f5ce607498c647e0c"
+        },
+        "83": {
+          "kind": "source-match",
+          "package": "old@0.1.3",
+          "source_file": "index.js",
+          "module_sha256": "a358b7854ff27e44be98d16574793ff7016c101cdd549dee31dcea1b1964555e"
+        },
+        "84": {
+          "kind": "source-match",
+          "package": "old@0.1.3",
+          "source_file": "lib/index.js",
+          "module_sha256": "0462307f5ee05957dc2973d8ac3ef19f299e872fc3533078b704c66b9aa92d1f"
+        },
+        "85": {
+          "kind": "source-match",
+          "package": "once@1.4.0",
+          "source_file": "once.js",
+          "module_sha256": "a361ac8aee600536905862a4216b916624e42795cf1b1955576de1f57f4f608f"
+        },
+        "86": {
+          "kind": "source-match",
+          "package": "process-nextick-args@2.0.1",
+          "source_file": "index.js",
+          "module_sha256": "dd8aef5e020cd39580de2ae63f28e1ff4307368811edbd0aeb9b4b9f684d6059"
+        },
+        "87": {
+          "kind": "source-match",
+          "package": "pump@2.0.1",
+          "source_file": "index.js",
+          "module_sha256": "98db624d510aaa4fe4984b54a38ae7a74c9625601a59c7f4fadedfbc19cdd3d4"
+        },
+        "88": {
+          "kind": "source-match",
+          "package": "pumpify@1.5.1",
+          "source_file": "index.js",
+          "module_sha256": "d651feec80791309827b26cbf2ad7c4ffe2caab60517fe29939538d51c3e165a"
+        },
+        "89": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "errors-browser.js",
+          "module_sha256": "39a324a79f972362f23c7e7792df18bfa7c8009623c8cc14a2a831f41d203686"
+        },
+        "90": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/_stream_duplex.js",
+          "module_sha256": "3c049f40f12609269f0a765f3cca5ea7838bbbc5cf2dd5f2d4d9b1fc7151fbf8"
+        },
+        "91": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/_stream_passthrough.js",
+          "module_sha256": "5b78d86c1c7bc964e0ec9c4e8f0a1fb01fa8ec9aa64d869801f1a093b5d063ab"
+        },
+        "92": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/_stream_readable.js",
+          "module_sha256": "9e405510a4ac668f9887bb4cfe76c2943a18560fc233eec662f3cb6b691f1ca7"
+        },
+        "93": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/_stream_transform.js",
+          "module_sha256": "9d07d6d44163de694d87a1dd925be84f5a01543d3d5cb39cd8301942c94a5e47"
+        },
+        "94": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/_stream_writable.js",
+          "module_sha256": "f8661f49d8d0a2e16ea22c0832a746ee6fa7a2f5853f890003ca016a393505c8"
+        },
+        "95": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/async_iterator.js",
+          "module_sha256": "2e31ed90a09cc6999c45f58b86d3a9bb3e51d8e0c0d1b412fc9154f7cc2dc822"
+        },
+        "96": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/buffer_list.js",
+          "module_sha256": "b4f4c705ff3c3086900a78d10a6295ac578766a3c07ded2e84c675c39439e988"
+        },
+        "97": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/destroy.js",
+          "module_sha256": "48a2cf9c05016a83f713c218694404d83e4d78c8b679e154423b662de866066f"
+        },
+        "98": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/end-of-stream.js",
+          "module_sha256": "3d43f24b6743d0b160e96ad84bce6ba50b6d27ddf08f702cdb9071352c321c10"
+        },
+        "99": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/from-browser.js",
+          "module_sha256": "0b59b7b5e672ecb88bec032cf0ff2870faefa805632702d2567f6d1292e8999e"
+        },
+        "100": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/pipeline.js",
+          "module_sha256": "bef39cd27699b1990db8e45be124b018fecf1446065be48484d1ed1af4fbbf54"
+        },
+        "101": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "lib/internal/streams/state.js",
+          "module_sha256": "2929d42bc0b34737016bd0ea3dbd3089d886ee8bd64d2e7542f54bbf47088834"
+        },
+        "102": {
+          "kind": "browserify-deduplication",
+          "target": "45",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "5b611b61e101e096d181ed40bfcf2ded8a93fb2d40e730afc1a5208cf573d4c3"
+        },
+        "103": {
+          "kind": "source-match",
+          "package": "readable-stream@3.6.2",
+          "source_file": "readable-browser.js",
+          "module_sha256": "99b23dc0efaf21c96a3aa03c2c4986ca146ea0a33f59178fbc1cfe9240c010d6"
+        },
+        "104": {
+          "kind": "source-match",
+          "package": "ripemd160@2.0.2",
+          "source_file": "index.js",
+          "module_sha256": "618b2fbda92d369fc99600d02af03046e0432560b213529f8300b3c966a76b5e"
+        },
+        "105": {
+          "kind": "source-match",
+          "package": "safe-buffer@5.2.1",
+          "source_file": "index.js",
+          "module_sha256": "fd6e037eeed28d75616f35ba76210b70a7826ffd5cc1bcf891197ee9f35a4541"
+        },
+        "106": {
+          "kind": "source-match",
+          "package": "set-function-length@1.2.2",
+          "source_file": "index.js",
+          "module_sha256": "80ee1322b6e9769ba98909203d04b97b8fed7064605874f7f198b1751388016b"
+        },
+        "107": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "hash.js",
+          "module_sha256": "52091a69f9ab167fe186cda28b87778231c178ff9f744f63a7adef2bca07eca6"
+        },
+        "108": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "index.js",
+          "module_sha256": "e2d14f7dae9650d8f789f486959b7b8f8b7bf5af1a99a2cc8747d6bf7ed55557"
+        },
+        "109": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "sha.js",
+          "module_sha256": "eb577af1c794cce3025d9cb67a3801cca2d5c3af76ab8fefb5cd8b69ec04ce3b"
+        },
+        "110": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "sha1.js",
+          "module_sha256": "fe30b74948c7d59ecebef86fdf48cbf8d011309177347baec4b133178253d40f"
+        },
+        "111": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "sha224.js",
+          "module_sha256": "a421f65e644c5b80849b5b0c36d57b280f4ecede4e0844633611ea4b64db81ac"
+        },
+        "112": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "sha256.js",
+          "module_sha256": "1af493285164b75fd3035ee76ad74510863010cd5e40a4f9cd2df94e45021405"
+        },
+        "113": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "sha384.js",
+          "module_sha256": "c8babed7734e3fe50fcd943e5e6631f6db6528441b4738f51d49a8d9beaee3ef"
+        },
+        "114": {
+          "kind": "source-match",
+          "package": "sha.js@2.4.11",
+          "source_file": "sha512.js",
+          "module_sha256": "e5d9faff58af23c2ca4da2e93eb09438d0b242fdf706bccc35bd2cb22abd0993"
+        },
+        "115": {
+          "kind": "source-match",
+          "package": "split2@2.2.0",
+          "source_file": "index.js",
+          "module_sha256": "705cd35dcb0f00d83c1fd2501eebd49d315c1fa02ba1f7cc2bcbf60b59c9fb40"
+        },
+        "116": {
+          "kind": "source-match",
+          "package": "stream-shift@1.0.3",
+          "source_file": "index.js",
+          "module_sha256": "6b0c54b3393d3824748138f91f266fc65c423d4930ac55047ca04ac655dac4ff"
+        },
+        "117": {
+          "kind": "browserify-deduplication",
+          "target": "48",
+          "package": "string_decoder@1.1.1",
+          "module_sha256": "51b3b7c61fd3bfe13453643c410393ad505554fdcc32be70eae89c1043da2f57"
+        },
+        "118": {
+          "kind": "source-match",
+          "package": "supercop.js@2.0.1",
+          "source_file": "index.js",
+          "module_sha256": "db9cf72e300eb517103104b0ca77c29e0c2ddf4ec06f6af328d686ec86662475"
+        },
+        "119": {
+          "kind": "source-match",
+          "package": "supercop.js@2.0.1",
+          "source_file": "lib.js",
+          "module_sha256": "e5dbf4bbe996baa325d91cc0424cda9029e599bb51920e07ba9f8c4702666c4d"
+        },
+        "120": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/common.js",
+          "module_sha256": "cef5af0305ed9cd7ea322e0285da9d969ba66460090ff928c227effc3eccb02e"
+        },
+        "121": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/hash.js",
+          "module_sha256": "0f3091799888f7c954a83a5af1051754bb01770a55f5dded0d308a7877112b5b"
+        },
+        "122": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/lightNode.js",
+          "module_sha256": "011688f233897817962271b43c2c10a115638abc132199bf9546e4dfb4aa4838"
+        },
+        "123": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/methods.js",
+          "module_sha256": "1aa199e9302bbb5d848627117dcf82d27ee4e57a023bc366cbc8340bc3a281d2"
+        },
+        "124": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/pubkey.js",
+          "module_sha256": "3c033b3ea43d039765749607fd1276077329f2477bd287145387b71434395528"
+        },
+        "125": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/rpc.js",
+          "module_sha256": "ac3f36803e3eeedceeb505cb9913b91e7a3931ff5de0eb9df841010770030d2c"
+        },
+        "126": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/types.js",
+          "module_sha256": "601e09d07469a199fa1583b1f65bee3c33fc94eb72d949a3ab08d3c1bf817092"
+        },
+        "127": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/varint.js",
+          "module_sha256": "28a57badd399dfb07fcce70b988f3b3b209452810977dc131f585ea453e3294f"
+        },
+        "128": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "lib/verify.js",
+          "module_sha256": "f898994c9834c930f38fb8275d351d5e4b8b7d3b636c3cc6fac7f0400b0a7c3e"
+        },
+        "129": {
+          "kind": "browserify-deduplication",
+          "target": "37",
+          "package": "isarray@1.0.0",
+          "module_sha256": "e7ee50c93894a6987464d2b4b005a0ddbe67d4ec4e4c338dc25c85a9fd624285"
+        },
+        "130": {
+          "kind": "browserify-deduplication",
+          "target": "38",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "011b3c12cf5c2387a675973a71305de30d520d7c4d59d87e25b1e20e215f5065"
+        },
+        "131": {
+          "kind": "browserify-deduplication",
+          "target": "39",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "c55df1207b0ab2005173734d71d5ee3b6006a9c9ae04d778855655743816fc6e"
+        },
+        "132": {
+          "kind": "browserify-deduplication",
+          "target": "40",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "1330c2fc1e8b2d5e7c00f943fb445508bd9aa73ac12723ab1dc5d405c6c2744b"
+        },
+        "133": {
+          "kind": "browserify-deduplication",
+          "target": "41",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "648538be485b7ae604ebdd52becfe04007ba8e31cb034dbfc3fcb357260d7a54"
+        },
+        "134": {
+          "kind": "browserify-deduplication",
+          "target": "42",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "37dab16b5945fd0d88441093ee205deeeb1648365b8da76cb02ebdcb6cec6bcd"
+        },
+        "135": {
+          "kind": "browserify-deduplication",
+          "target": "43",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "05d30f88c99b2faf7b351b2bace09573f504a9206b70d01cb47658b34be532d3"
+        },
+        "136": {
+          "kind": "browserify-deduplication",
+          "target": "44",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "f4444511904d052c7603a2ec0df12f382e646162901d5f8c663990f0ec614a69"
+        },
+        "137": {
+          "kind": "browserify-deduplication",
+          "target": "45",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "5b611b61e101e096d181ed40bfcf2ded8a93fb2d40e730afc1a5208cf573d4c3"
+        },
+        "138": {
+          "kind": "browserify-deduplication",
+          "target": "46",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "e3fc73ba54366b2c3f9c1664804ca2851997a968d1526585aa55d7abf0837fd3"
+        },
+        "139": {
+          "kind": "browserify-deduplication",
+          "target": "47",
+          "package": "safe-buffer@5.1.2",
+          "module_sha256": "42046076f7b4ac4151df0f3b908cb7eb9824a1a7377d6af3df946a3eeefd21cb"
+        },
+        "140": {
+          "kind": "browserify-deduplication",
+          "target": "48",
+          "package": "string_decoder@1.1.1",
+          "module_sha256": "51b3b7c61fd3bfe13453643c410393ad505554fdcc32be70eae89c1043da2f57"
+        },
+        "141": {
+          "kind": "source-match",
+          "package": "through2@2.0.5",
+          "source_file": "through2.js",
+          "module_sha256": "4e15c3095c1e330e6d77a69fe6a8414951c3e54180d47945eef9d7bb1e7b2729"
+        },
+        "142": {
+          "kind": "source-match",
+          "package": "util-deprecate@1.0.2",
+          "source_file": "browser.js",
+          "module_sha256": "30745c60f843da1b92b918fdd955242e4c0e63fa3c081c80e3b5f60aade34f26"
+        },
+        "143": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/array.js",
+          "module_sha256": "b3c4bd38240f306fccae6cbe594eb92c1178fea9b0f685501466141ace849666"
+        },
+        "144": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/bound.js",
+          "module_sha256": "82672fa9d261fade9a1727048ebaff30bcebdbe69ce8a7bed96509f702ab9f2d"
+        },
+        "145": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/buffer.js",
+          "module_sha256": "ac0c2075fe546f37d7520094f17850f5faa63b21e064b9f691d4c9a6bfa97dd0"
+        },
+        "146": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/index.js",
+          "module_sha256": "69fee540c12c014ad72534c6b47b57c751e991274cbd37fd7b44f6092404f387"
+        },
+        "147": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/numbers.js",
+          "module_sha256": "71ce1418c4b77d803bc2e5f51fc43398f10f3a361ced8964708ed8972fa32068"
+        },
+        "148": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/object.js",
+          "module_sha256": "103db2ce9a75626ed3e44db6506e58eca367604f0bb56b9b53525a62c919d8a0"
+        },
+        "149": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/sequence.js",
+          "module_sha256": "7917fc092e915cfd915375c32370498f7315d57d3b8ee0836ba97ddf7c80868e"
+        },
+        "150": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/string.js",
+          "module_sha256": "21e5b2ef2906789c9c64a8b7846097cd01c10ce10e9f08717102e4b98785ed60"
+        },
+        "151": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/util.js",
+          "module_sha256": "915932cd66beca938f745ee6fcde16a5fa7c42c50fa9906a9bd2319080ae1253"
+        },
+        "152": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/value.js",
+          "module_sha256": "3cf010e33a12b059ecd4a4ebffe2adc14f586b3c2667559614128206fda54904"
+        },
+        "153": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/vararray.js",
+          "module_sha256": "f7b7b41ed07c79e4f4b6e49fe2c4d6a9fa6a4cdaa3beaf7dd01fe897b94f3c5c"
+        },
+        "154": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/varbuffer.js",
+          "module_sha256": "5638d940f5655a0071ba3bfe3cdcc01002101276d7efb9a4bdb19f9a2f81c7b3"
+        },
+        "155": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/varmap.js",
+          "module_sha256": "2ed34d19bda98eb8f093704449ffc3ce6c2bddda8051328f9e4d5a5e14b57937"
+        },
+        "156": {
+          "kind": "source-match",
+          "package": "varstruct@6.1.3",
+          "source_file": "lib/varstring.js",
+          "module_sha256": "f08cfc02e94e81db8319e55618d0d7f1fe107d7ac1fc01e31950b8311f28d87e"
+        },
+        "157": {
+          "kind": "browserify-deduplication",
+          "target": "37",
+          "package": "isarray@1.0.0",
+          "module_sha256": "e7ee50c93894a6987464d2b4b005a0ddbe67d4ec4e4c338dc25c85a9fd624285"
+        },
+        "158": {
+          "kind": "browserify-deduplication",
+          "target": "38",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "011b3c12cf5c2387a675973a71305de30d520d7c4d59d87e25b1e20e215f5065"
+        },
+        "159": {
+          "kind": "browserify-deduplication",
+          "target": "39",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "c55df1207b0ab2005173734d71d5ee3b6006a9c9ae04d778855655743816fc6e"
+        },
+        "160": {
+          "kind": "browserify-deduplication",
+          "target": "40",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "1330c2fc1e8b2d5e7c00f943fb445508bd9aa73ac12723ab1dc5d405c6c2744b"
+        },
+        "161": {
+          "kind": "browserify-deduplication",
+          "target": "41",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "648538be485b7ae604ebdd52becfe04007ba8e31cb034dbfc3fcb357260d7a54"
+        },
+        "162": {
+          "kind": "browserify-deduplication",
+          "target": "42",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "37dab16b5945fd0d88441093ee205deeeb1648365b8da76cb02ebdcb6cec6bcd"
+        },
+        "163": {
+          "kind": "browserify-deduplication",
+          "target": "43",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "05d30f88c99b2faf7b351b2bace09573f504a9206b70d01cb47658b34be532d3"
+        },
+        "164": {
+          "kind": "browserify-deduplication",
+          "target": "44",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "f4444511904d052c7603a2ec0df12f382e646162901d5f8c663990f0ec614a69"
+        },
+        "165": {
+          "kind": "browserify-deduplication",
+          "target": "45",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "5b611b61e101e096d181ed40bfcf2ded8a93fb2d40e730afc1a5208cf573d4c3"
+        },
+        "166": {
+          "kind": "browserify-deduplication",
+          "target": "46",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "e3fc73ba54366b2c3f9c1664804ca2851997a968d1526585aa55d7abf0837fd3"
+        },
+        "167": {
+          "kind": "browserify-deduplication",
+          "target": "47",
+          "package": "safe-buffer@5.1.2",
+          "module_sha256": "42046076f7b4ac4151df0f3b908cb7eb9824a1a7377d6af3df946a3eeefd21cb"
+        },
+        "168": {
+          "kind": "browserify-deduplication",
+          "target": "48",
+          "package": "string_decoder@1.1.1",
+          "module_sha256": "51b3b7c61fd3bfe13453643c410393ad505554fdcc32be70eae89c1043da2f57"
+        },
+        "169": {
+          "kind": "source-match",
+          "package": "websocket-stream@5.5.2",
+          "source_file": "stream.js",
+          "module_sha256": "e48733d9346ecba87008736c4c08b141b7a74f14254f78a7981b8fe7bf9f809f"
+        },
+        "170": {
+          "kind": "source-match",
+          "package": "websocket-stream@5.5.2",
+          "source_file": "ws-fallback.js",
+          "module_sha256": "3ea1f50cdd5f0048738b96b55beb19288cbccab76bf04c7fa1e030bb5159f828"
+        },
+        "171": {
+          "kind": "source-match",
+          "package": "wrappy@1.0.2",
+          "source_file": "wrappy.js",
+          "module_sha256": "5fc247939ffcf0c4b8f944cf5da6251ae912e555cdbe0583c072e458b4cac4bf"
+        },
+        "172": {
+          "kind": "source-match",
+          "package": "xtend@4.0.2",
+          "source_file": "immutable.js",
+          "module_sha256": "44eca69b1be61a1985a6fddb7f7949a8d07470fa299d77713eaba794074c26ef"
+        },
+        "173": {
+          "kind": "empty-browser-stub",
+          "module_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        "174": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1.js",
+          "module_sha256": "e2b02ce6895a1d4f9ec479d20d67b16d4239e501052bc191d1ae0fc9bde1d963"
+        },
+        "175": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/api.js",
+          "module_sha256": "226f36e149dc4f2f7ea388de5796f5d166a4abe007fe9402dc8c1c7444c5218e"
+        },
+        "176": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/base/buffer.js",
+          "module_sha256": "7823cc51c2026e0c4b63390b9bb34d45cee9723c580d1ecd685ce4fbb0a03078"
+        },
+        "177": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/base/index.js",
+          "module_sha256": "f711b9adb7ca418299f26c4f04981a1c2d080a852d2159595e5bdd65c4596d48"
+        },
+        "178": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/base/node.js",
+          "module_sha256": "e3f7b0f24cd8f716010ad4da4f176d4cd0a015d0933e6a7f724e924d526721a7"
+        },
+        "179": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/base/reporter.js",
+          "module_sha256": "74727d19cae91636bcd1582658f2ab323f136e2ce4a43af66a989f9979a3ac48"
+        },
+        "180": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/constants/der.js",
+          "module_sha256": "84b74afcdb6856de5e19d92f04903cf6baa9f4a298a57c7a937c565c825b4c08"
+        },
+        "181": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/constants/index.js",
+          "module_sha256": "53a8d97ffd0be0eed38b4c3a71da62c6656db9816d2c080edbcd6ab25991b35e"
+        },
+        "182": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/decoders/der.js",
+          "module_sha256": "26e805602d85e369c18d28b0b038751bfc8c3c16e8a1885681f74c75d763938a"
+        },
+        "183": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/decoders/index.js",
+          "module_sha256": "4eb5e34e75bf4c94b9f4696bf672703818acb9f3b4e8600de48ee9c5662f8a9e"
+        },
+        "184": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/decoders/pem.js",
+          "module_sha256": "3d872484d3f34f3c2fe18a595a7287d41ecf0ed1216b7a089e46922d2348d5c6"
+        },
+        "185": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/encoders/der.js",
+          "module_sha256": "3b0802965935f44acece15470ee2cf654586dbe22efedd3fb1f43e5f449b067d"
+        },
+        "186": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/encoders/index.js",
+          "module_sha256": "dfbdc1e45ad4d03c168d8ea3daecf248a40e4678e329bf80f0e0f28fd2bd271f"
+        },
+        "187": {
+          "kind": "source-match",
+          "package": "asn1.js@4.10.1",
+          "source_file": "lib/asn1/encoders/pem.js",
+          "module_sha256": "07802bd0a08c88ae04e4da7d06253665ed88c2f577d30042466b28d038b6db3e"
+        },
+        "188": {
+          "kind": "source-match",
+          "package": "bn.js@4.12.0",
+          "source_file": "lib/bn.js",
+          "module_sha256": "e1c4f51423ecb44e7676549937d726e8228b1b205df223a460ba1491b363ee0a"
+        },
+        "189": {
+          "kind": "source-match",
+          "package": "available-typed-arrays@1.0.7",
+          "source_file": "index.js",
+          "module_sha256": "38430febb9d5fb01fc3fcdbeb16c2cce5f8000dfc0fd3d72168be13c0e666af4"
+        },
+        "190": {
+          "kind": "source-match",
+          "package": "base64-js@1.5.1",
+          "source_file": "index.js",
+          "module_sha256": "324c4ce66d9ea537670eb6f6e9995550da2cf45ff33f511287c2e59d6c82ad7f"
+        },
+        "191": {
+          "kind": "source-match",
+          "package": "bn.js@5.2.1",
+          "source_file": "lib/bn.js",
+          "module_sha256": "88369f54b1f173136098e662167dbe3f739012beaa48249f1109ce35a6f03990"
+        },
+        "192": {
+          "kind": "source-match",
+          "package": "brorand@1.1.0",
+          "source_file": "index.js",
+          "module_sha256": "43e7017efa93212ae4750bf8bc4911d59bf718c38b243b64889dc06e8a54104c"
+        },
+        "193": {
+          "kind": "browserify-deduplication",
+          "target": "173",
+          "package": null,
+          "module_sha256": "02b6bcf676d020ff8ba6a203ad8c2e9587400c207fbd8a0ec240d1a1b07a9fa0"
+        },
+        "194": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "aes.js",
+          "module_sha256": "ec6eaa6e1268e7be5776ed3394faa9216a21ed2d0f19329dc4fba8ba312e01ec"
+        },
+        "195": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "authCipher.js",
+          "module_sha256": "ae90d04dd79d2d379b6707e1115b38915a2f2025709486cf99c37fde2432a4bd"
+        },
+        "196": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "browser.js",
+          "module_sha256": "44eb8a34b98eafdcf143f90b1258b87a58c7d98b458835d8a9b6155d15ce8c42"
+        },
+        "197": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "decrypter.js",
+          "module_sha256": "b295a990e35c7fe91b1ae33a750b72e201b5a22ab80a5fe2bd92428458cf6982"
+        },
+        "198": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "encrypter.js",
+          "module_sha256": "b837bffd70630c31a43a0e5c3dfa0e25dc85aab852fa78e6b87413d3d94663cf"
+        },
+        "199": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "ghash.js",
+          "module_sha256": "e22a00143735e8a96476b026ffaece07aaaeeeaafb889004d495497d1d9e6797"
+        },
+        "200": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "incr32.js",
+          "module_sha256": "2134736bb5a6be9d90c64f15d6ab91fd2fa9734975529236f78fa7219fff41da"
+        },
+        "201": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/cbc.js",
+          "module_sha256": "bac8df6d4081d667db323004a6420d4c7fdcfdf94d289f06a72b261bb10b0d66"
+        },
+        "202": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/cfb.js",
+          "module_sha256": "82959517c6c422e26f9b2286d8d4dedbd626e83ab3c8e64a6e868451429e860c"
+        },
+        "203": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/cfb1.js",
+          "module_sha256": "192e515aac975667c2e1ee90cf6c6be4dd123ff62afa5ea34ceedcb3548e8769"
+        },
+        "204": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/cfb8.js",
+          "module_sha256": "592e9d57f6c3f4841c7448fd5267e06f02395b4768ee999c002b94ccdd599223"
+        },
+        "205": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/ctr.js",
+          "module_sha256": "4334aba72b675cf347428b58b706a78699b29a74aaafcd9ac16648c877d8ec90"
+        },
+        "206": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/ecb.js",
+          "module_sha256": "f5ab3cedceadb4cd7dfd433fdb25f9414a8932e48f9625a5aea80487ee53b5ca"
+        },
+        "207": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/index.js",
+          "module_sha256": "c802e5cf54dcc4f164eda94ecc4929933acf15270c9afcfa7047934c2ccbf2f0"
+        },
+        "208": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/list.json",
+          "module_sha256": "c865e42252754f5c42c10516f0e14f1124abcfa06385997ed540fb22eecb49ed"
+        },
+        "209": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "modes/ofb.js",
+          "module_sha256": "c7392ecc834047de9d535b91c3cc24291ebd58735acf68f0580e4d4cbeac153e"
+        },
+        "210": {
+          "kind": "source-match",
+          "package": "browserify-aes@1.2.0",
+          "source_file": "streamCipher.js",
+          "module_sha256": "75024e0516c3cc4969edd986fb123184369a6a305a8b4b7b75745cc59eabf547"
+        },
+        "211": {
+          "kind": "source-match",
+          "package": "browserify-cipher@1.0.1",
+          "source_file": "browser.js",
+          "module_sha256": "349a89f619d8cee31c46e2c9e07793fed09e5d90f49c2c2a434205fbee86394e"
+        },
+        "212": {
+          "kind": "source-match",
+          "package": "browserify-des@1.0.2",
+          "source_file": "index.js",
+          "module_sha256": "e1829088f41a5fd39d82cc11987db23e371d3ccca136e1dc5786b143eec1cee2"
+        },
+        "213": {
+          "kind": "source-match",
+          "package": "browserify-des@1.0.2",
+          "source_file": "modes.js",
+          "module_sha256": "40863069ff0f34e1f4f59472e29f8bae6be5ed76aff95cb40e589b11cc8b57ce"
+        },
+        "214": {
+          "kind": "source-match",
+          "package": "browserify-rsa@4.1.0",
+          "source_file": "index.js",
+          "module_sha256": "a9834d3a1a57c9e821048c55315c48228f39618d29c29ce6d809c8d493b2f141"
+        },
+        "215": {
+          "kind": "source-match",
+          "package": "browserify-sign@4.2.3",
+          "source_file": "algos.js",
+          "module_sha256": "ab48bdf82edb7d0d6b6a344231c37102bccc0dea417467a4a0c558ad6ac7549d"
+        },
+        "216": {
+          "kind": "source-match",
+          "package": "browserify-sign@4.2.3",
+          "source_file": "browser/algorithms.json",
+          "module_sha256": "d41762a6c98f8c857e995fdad26492a0732a5ae15220844cd0200bda90be02f1"
+        },
+        "217": {
+          "kind": "source-match",
+          "package": "browserify-sign@4.2.3",
+          "source_file": "browser/curves.json",
+          "module_sha256": "01004a9b76680cebf8a247e7190707c7b314a0e3550ff4ef984d3703a82c326f"
+        },
+        "218": {
+          "kind": "source-match",
+          "package": "browserify-sign@4.2.3",
+          "source_file": "browser/index.js",
+          "module_sha256": "f3644c0324f90fb99aee5cb13e1eaa56628fbca04f04d539e31ed50d3574b2c6"
+        },
+        "219": {
+          "kind": "source-match",
+          "package": "browserify-sign@4.2.3",
+          "source_file": "browser/sign.js",
+          "module_sha256": "227a9acedea45a96067d95ed693bb3a7e935911fde499d96dcd7d0270fe65500"
+        },
+        "220": {
+          "kind": "source-match",
+          "package": "browserify-sign@4.2.3",
+          "source_file": "browser/verify.js",
+          "module_sha256": "fb54dee2f39ce0c01367ee5761a0fdbd8c8119bd56f9152d936ce0f3e0c7f01b"
+        },
+        "221": {
+          "kind": "source-match",
+          "package": "buffer-xor@1.0.3",
+          "source_file": "index.js",
+          "module_sha256": "872c6bb3c268531aa199b3066c40bdf200bbc7f881aa4ef8eae9330e21de75c3"
+        },
+        "222": {
+          "kind": "source-match",
+          "package": "buffer@5.2.1",
+          "source_file": "index.js",
+          "module_sha256": "a99d9040a402143ab98812875e90bfdcfc1b700d1d80b1f0c722e6b85ff7b295"
+        },
+        "223": {
+          "kind": "browserify-deduplication",
+          "target": "27",
+          "package": "call-bind@1.0.7",
+          "module_sha256": "4995bd8b9b386cdd00723da23e68629e718eba2ef8fd66264b85e1280248e86c"
+        },
+        "224": {
+          "kind": "browserify-deduplication",
+          "target": "28",
+          "package": "call-bind@1.0.7",
+          "module_sha256": "33619ea35ca2a70b367093121a02dbeb91f911884a20fa1ecb053772b836e2fa"
+        },
+        "225": {
+          "kind": "browserify-deduplication",
+          "target": "30",
+          "package": "cipher-base@1.0.4",
+          "module_sha256": "7c417eac65e54a20e7bcd010b56a196e5ba36264a6d142536d525ccc0cbd6306"
+        },
+        "226": {
+          "kind": "browserify-deduplication",
+          "target": "31",
+          "package": "core-util-is@1.0.3",
+          "module_sha256": "85770768708544f2082b0062887dc2be85ff223f69085c42c1da1588ecee1408"
+        },
+        "227": {
+          "kind": "source-match",
+          "package": "create-ecdh@4.0.4",
+          "source_file": "browser.js",
+          "module_sha256": "d6e0a5b48ec814f82bb678e3075f6496a8121c716bd5a19026b58adfe48ddde2"
+        },
+        "228": {
+          "kind": "browserify-deduplication",
+          "target": "188",
+          "package": "bn.js@4.12.0",
+          "module_sha256": "533cd0b70e06cd5439c00c504caed63cd702a851996bfa24634f86854563205f"
+        },
+        "229": {
+          "kind": "browserify-deduplication",
+          "target": "32",
+          "package": "create-hash@1.2.0",
+          "module_sha256": "65cbed343013d7c26105ec38746d9d2164b3613fddff52b6ead7c8a912fa5d84"
+        },
+        "230": {
+          "kind": "source-match",
+          "package": "create-hash@1.2.0",
+          "source_file": "md5.js",
+          "module_sha256": "2ff6e2cc7d59f263f26bfc50a944d9f835af33df5ef8bceba671daf682d43c88"
+        },
+        "231": {
+          "kind": "source-match",
+          "package": "create-hmac@1.1.7",
+          "source_file": "browser.js",
+          "module_sha256": "10f92b950a22c5fe4cb70ac0af7bc9928ae71c8551d846077f9e9441c5ab71d3"
+        },
+        "232": {
+          "kind": "source-match",
+          "package": "create-hmac@1.1.7",
+          "source_file": "legacy.js",
+          "module_sha256": "2371d55229f555a14af456f622e82d280beb5d61c1f579abd9444223b2c940b2"
+        },
+        "233": {
+          "kind": "source-match",
+          "package": "crypto-browserify@3.12.0",
+          "source_file": "index.js",
+          "module_sha256": "35c2f5149ded515e67d5b05f51d1f03d726678f806e1df1152eb70bffbc38732"
+        },
+        "234": {
+          "kind": "browserify-deduplication",
+          "target": "35",
+          "package": "define-data-property@1.1.4",
+          "module_sha256": "7ae9332c63ac4e69fa805c37667edf0b6944409878c274e4abb4556b2c2ac84e"
+        },
+        "235": {
+          "kind": "source-match",
+          "package": "des.js@1.1.0",
+          "source_file": "lib/des.js",
+          "module_sha256": "9abd6c3732690df7020e59907fa8cd83b1e25957b75389716d53230868811985"
+        },
+        "236": {
+          "kind": "source-match",
+          "package": "des.js@1.1.0",
+          "source_file": "lib/des/cbc.js",
+          "module_sha256": "e891c5fea73588b8b040d0a189dc0c90974e7a4ded63a2192d1dcfb928f2423c"
+        },
+        "237": {
+          "kind": "source-match",
+          "package": "des.js@1.1.0",
+          "source_file": "lib/des/cipher.js",
+          "module_sha256": "ab51be3cf883e31728f8e5e4d2e26201c36209786d927375f157d9c5c564457b"
+        },
+        "238": {
+          "kind": "source-match",
+          "package": "des.js@1.1.0",
+          "source_file": "lib/des/des.js",
+          "module_sha256": "9b1273f17023c6c785e47ac490dfc02ac9dc7ba698a4666d2ae2ad3c0d08f4b0"
+        },
+        "239": {
+          "kind": "source-match",
+          "package": "des.js@1.1.0",
+          "source_file": "lib/des/ede.js",
+          "module_sha256": "58527562f48a4aad41a71683cc03061eafed01266354406909bf764119072515"
+        },
+        "240": {
+          "kind": "source-match",
+          "package": "des.js@1.1.0",
+          "source_file": "lib/des/utils.js",
+          "module_sha256": "8e28a6b63eca88fa8cb95ac42931cf397c21a85eb82bcb6e5e79e4a4f426ce07"
+        },
+        "241": {
+          "kind": "source-match",
+          "package": "diffie-hellman@5.0.3",
+          "source_file": "browser.js",
+          "module_sha256": "3f988d91a7f8c500c71c6f93b2659a5f46d9f0c11279026ee007321626468a0e"
+        },
+        "242": {
+          "kind": "source-match",
+          "package": "diffie-hellman@5.0.3",
+          "source_file": "lib/dh.js",
+          "module_sha256": "d537b38f4664ba9bbee09c142192e458c2275fe948b9f815ba8741ac8ae2c3bc"
+        },
+        "243": {
+          "kind": "source-match",
+          "package": "diffie-hellman@5.0.3",
+          "source_file": "lib/generatePrime.js",
+          "module_sha256": "e3ca211938baedd8003147abced4e4013b40eccb256154be284987c8afe76117"
+        },
+        "244": {
+          "kind": "source-match",
+          "package": "diffie-hellman@5.0.3",
+          "source_file": "lib/primes.json",
+          "module_sha256": "155588486dcec7b7b7d4f35783c8436af9f553373f940f55218df46aa4f08860"
+        },
+        "245": {
+          "kind": "browserify-deduplication",
+          "target": "188",
+          "package": "bn.js@4.12.0",
+          "module_sha256": "533cd0b70e06cd5439c00c504caed63cd702a851996bfa24634f86854563205f"
+        },
+        "246": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic.js",
+          "module_sha256": "130b9a79f12c466841d6d97eb22864fca4e81a1323681ff1336e9c635a5753e0"
+        },
+        "247": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/curve/base.js",
+          "module_sha256": "9bbbdc00f1404bfafa93010573555c086c8929e214493d72abae738768af2727"
+        },
+        "248": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/curve/edwards.js",
+          "module_sha256": "a260459ef7f2b8ce32051b44ae8a9f57bcd5ed3d950ca8461dbb2e026c120b88"
+        },
+        "249": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/curve/index.js",
+          "module_sha256": "3555e2b26695928346edc919a657b38e3a78023951b72da524acaab4791c4530"
+        },
+        "250": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/curve/mont.js",
+          "module_sha256": "df1a8d8919b156f4b13ff6fd69032a36a134b06de042fea47dec70218cf6dade"
+        },
+        "251": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/curve/short.js",
+          "module_sha256": "43761a7f04f3f2c326ebe1f472b361784649d94312082b2e9ea315c9f0e7a13d"
+        },
+        "252": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/curves.js",
+          "module_sha256": "31c9fb245ea2b2b06bdb96e236f77f9ecf52b2545bcea8d5752be8dab81f7ce2"
+        },
+        "253": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/ec/index.js",
+          "module_sha256": "9460f7a7ae1d47e62c47b2dd651eecde3ab956ca20503e2bc4180ba8386321a5"
+        },
+        "254": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/ec/key.js",
+          "module_sha256": "dca82722e27fac9a77cb91ebd1c0b7cacdba335cbd8ab7a9538782bcc59623be"
+        },
+        "255": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/ec/signature.js",
+          "module_sha256": "9ec2caabae9e235b305ea2aaa17ee303ff18c3e4ec6a8c0bac0c5c42b77a3d96"
+        },
+        "256": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/eddsa/index.js",
+          "module_sha256": "a416b6bce7012631806660e4a3db81978dfde976e1000c396023795d6ebcee3c"
+        },
+        "257": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/eddsa/key.js",
+          "module_sha256": "8a238546f5d0e28e9f6d2b28ce010e90f01dd77de0e34c80d4c4094120509fd4"
+        },
+        "258": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/eddsa/signature.js",
+          "module_sha256": "137a3a3c960a8fc080c3b64895f5bc3ae63631dbdca7554d92dd07e887cc0169"
+        },
+        "259": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/precomputed/secp256k1.js",
+          "module_sha256": "6bf1a029d5402fe23ea4ed33a1e28888a5a91eb4951f37156742c78a0140b5a4"
+        },
+        "260": {
+          "kind": "source-match",
+          "package": "elliptic@6.5.6",
+          "source_file": "lib/elliptic/utils.js",
+          "module_sha256": "78291e7d3e3600fd485c8bdc846861311e3a625737086d5882362d04507ea5e1"
+        },
+        "261": {
+          "kind": "browserify-deduplication",
+          "target": "188",
+          "package": "bn.js@4.12.0",
+          "module_sha256": "533cd0b70e06cd5439c00c504caed63cd702a851996bfa24634f86854563205f"
+        },
+        "262": {
+          "kind": "embedded-package-metadata",
+          "package": "elliptic@6.5.6",
+          "note": "Nix-normalized dependency versions and registry metadata; identity/version explicit in bundle.",
+          "module_sha256": "1b50c94f3faecab54db74d17f8710f3dc9520ef47bae8b845ed099f8ae432844"
+        },
+        "263": {
+          "kind": "browserify-deduplication",
+          "target": "50",
+          "package": "es-define-property@1.0.0",
+          "module_sha256": "122ad5f71d97ecaff5e3e133cee77238aab76bbf6c339b460bb552e2a27547c7"
+        },
+        "264": {
+          "kind": "browserify-deduplication",
+          "target": "51",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "570b0bf153a7e3527b510c24732544bfb438474cd02f3d1684403e603c9fdc66"
+        },
+        "265": {
+          "kind": "browserify-deduplication",
+          "target": "52",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "ffb40cb9d9a448917ae0c62021e909948eff569ae793114124f2821ff7f1dd9f"
+        },
+        "266": {
+          "kind": "browserify-deduplication",
+          "target": "53",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "9184a1431ac13eb07e112a166f79a20745b8bc4206c6e0cff713bb6d5198c9eb"
+        },
+        "267": {
+          "kind": "browserify-deduplication",
+          "target": "54",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "3045f84309096c8c8d994adcf1f719fc31d42470c51482d4cf285b9e08ca864d"
+        },
+        "268": {
+          "kind": "browserify-deduplication",
+          "target": "55",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "dbb899ccb19e863021a0cbfe87c8b80934298bd06bd5aad8978f79fee93c077f"
+        },
+        "269": {
+          "kind": "browserify-deduplication",
+          "target": "56",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "77e7c764d1f9e1f7cc162b2e3bc9ddcc8ba4103524bec719bda0a54ec7d2dee2"
+        },
+        "270": {
+          "kind": "browserify-deduplication",
+          "target": "57",
+          "package": "es-errors@1.3.0",
+          "module_sha256": "4446a05151ab866a47b9e06aab3725cf72ae0347a321952f5f96739dd548cb83"
+        },
+        "271": {
+          "kind": "source-match",
+          "package": "events@3.3.0",
+          "source_file": "events.js",
+          "module_sha256": "a98e1916ef1927df73aa45433ab765bbd853655097ec15393e5cf0b1e6c8bf74"
+        },
+        "272": {
+          "kind": "source-match",
+          "package": "evp_bytestokey@1.0.3",
+          "source_file": "index.js",
+          "module_sha256": "fadee329837dd910e48cb7da08ddb8842f78ced8458b4ca9953bfedaa69eb901"
+        },
+        "273": {
+          "kind": "source-match",
+          "package": "for-each@0.3.3",
+          "source_file": "index.js",
+          "module_sha256": "8303a58000da0bf76502773aaffe6a19eb70f549db1dc55753e552127cd4825b"
+        },
+        "274": {
+          "kind": "browserify-deduplication",
+          "target": "58",
+          "package": "function-bind@1.1.2",
+          "module_sha256": "5907616f0352b406da54f63d78d5e3ef1305e1047a935b52cb8b90b6428f3264"
+        },
+        "275": {
+          "kind": "browserify-deduplication",
+          "target": "59",
+          "package": "function-bind@1.1.2",
+          "module_sha256": "997c0946f23e9cc88820ed4f3d9441ef734b2c02ad5726529a6608533485545e"
+        },
+        "276": {
+          "kind": "browserify-deduplication",
+          "target": "60",
+          "package": "get-intrinsic@1.2.4",
+          "module_sha256": "2185f627d04dd15b3396064c9f2128ea155193bb95a2e9da3c38102d8f5fae82"
+        },
+        "277": {
+          "kind": "browserify-deduplication",
+          "target": "61",
+          "package": "gopd@1.0.1",
+          "module_sha256": "600a91c331559f398b8aa00fcda33198b5949cbbcd4778246d5ad09b503ae440"
+        },
+        "278": {
+          "kind": "browserify-deduplication",
+          "target": "62",
+          "package": "has-property-descriptors@1.0.2",
+          "module_sha256": "ce2ad97ee1ac7811cf5b1afbd34c5f9cab04bcc61fc684882868bdc5f5768a7c"
+        },
+        "279": {
+          "kind": "browserify-deduplication",
+          "target": "63",
+          "package": "has-proto@1.0.3",
+          "module_sha256": "a403b02054632dce3b76872755d7691f4e1c2fb5b03a1fb9336e5239861f7c0d"
+        },
+        "280": {
+          "kind": "browserify-deduplication",
+          "target": "64",
+          "package": "has-symbols@1.0.3",
+          "module_sha256": "26bd887322951aea501d1f888b5a153aa9c904022e547dd7fed8522e4e8d37fc"
+        },
+        "281": {
+          "kind": "browserify-deduplication",
+          "target": "65",
+          "package": "has-symbols@1.0.3",
+          "module_sha256": "983ca6144159ac067c02f8ba9190da216654304971fe33e320757b5f350ef39c"
+        },
+        "282": {
+          "kind": "source-match",
+          "package": "has-tostringtag@1.0.2",
+          "source_file": "shams.js",
+          "module_sha256": "42b928361c34701a2fb743e33b7cafda5ec310464f0e85d1d0c9b45f21ec69d7"
+        },
+        "283": {
+          "kind": "browserify-deduplication",
+          "target": "66",
+          "package": "hash-base@3.1.0",
+          "module_sha256": "2fa9ea11d5197be66dbaeea641a300345b7c017d8adeefc6c390c9d268a41179"
+        },
+        "284": {
+          "kind": "browserify-deduplication",
+          "target": "89",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "34bc0c602e9fde9ad7cc0afab2904e44a7d893af5c245bafd3c77844bb9da44a"
+        },
+        "285": {
+          "kind": "browserify-deduplication",
+          "target": "90",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "69d6b26e44711cfc8d96a0b5b7a9fd6b6568da1c5f363860a0cae68a352d9b5d"
+        },
+        "286": {
+          "kind": "browserify-deduplication",
+          "target": "91",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "3630c7856e1574f3b73f57c81112133ff19a9ac529e7633e6ccf4aef772bf381"
+        },
+        "287": {
+          "kind": "browserify-deduplication",
+          "target": "92",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "0ae706b8c7fb4061b6d6dfd4e7f20eed7dd891884570ff2c48f2af574db93bc1"
+        },
+        "288": {
+          "kind": "browserify-deduplication",
+          "target": "93",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "9e9595fb91ba0049f44a6e177131b5a36e50d909a4a3adf42043b853265eda4c"
+        },
+        "289": {
+          "kind": "browserify-deduplication",
+          "target": "94",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "7774f44c14ef5143bab25ba93efd4cdad4f50e7476e834f9c82c024122f5d93a"
+        },
+        "290": {
+          "kind": "browserify-deduplication",
+          "target": "95",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "f3788173e85dc5fce27583a4d9e35785a267a53248ee6316488dfc88a7100686"
+        },
+        "291": {
+          "kind": "browserify-deduplication",
+          "target": "96",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "d166b2f55f1e1b604ee5fcdce86b0a4972a59bd4552b35d3e15a76987e4506e7"
+        },
+        "292": {
+          "kind": "browserify-deduplication",
+          "target": "97",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "7d8076f699a2f4f1225263d7fbbc9b28127a6aed1de426fde5a6049bb2337323"
+        },
+        "293": {
+          "kind": "browserify-deduplication",
+          "target": "98",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "2b1a2b15603668c740452e51d534ef0ddc8c35fbd652f48ba4edc2aa9612eeea"
+        },
+        "294": {
+          "kind": "browserify-deduplication",
+          "target": "99",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "0ac07eeb0505f4107bad66e9bd03a359be4ccf5207db023ca49fb921bb04bf8f"
+        },
+        "295": {
+          "kind": "browserify-deduplication",
+          "target": "100",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "52087c4510a7ffc8f47b9cb19756d462ffd49bcc5db65fc4dd4116653a52fff0"
+        },
+        "296": {
+          "kind": "browserify-deduplication",
+          "target": "101",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "431e54278174db8be3bbec047d2c0f52303459a28a0c14a532d64ed0de27fa28"
+        },
+        "297": {
+          "kind": "browserify-deduplication",
+          "target": "45",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "5b611b61e101e096d181ed40bfcf2ded8a93fb2d40e730afc1a5208cf573d4c3"
+        },
+        "298": {
+          "kind": "browserify-deduplication",
+          "target": "103",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "de9e9e800e4331cd5e90595935586a7cf17044813301a1cf21dfdf421a201976"
+        },
+        "299": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash.js",
+          "module_sha256": "7dfa5a5a86d6096234540f2a28ff017bcd74f1f8ee14eb33fc0ad5d332426cc3"
+        },
+        "300": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/common.js",
+          "module_sha256": "5e863107dd78a7daa71c72914d7d81a254ce75de37e4255468dd85695504daab"
+        },
+        "301": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/hmac.js",
+          "module_sha256": "52d1d334329cdfcbe0ef3be33706f85ec8baaccef3234656739f0db53a7104d7"
+        },
+        "302": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/ripemd.js",
+          "module_sha256": "1a641d9812ab8c3da9d65dcea2e90e54df9ad4320394ddf102a03761df277136"
+        },
+        "303": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha.js",
+          "module_sha256": "8f5a83c4e3552a66e682b1cc83e70860fcbe9a4d005f65d7f90cdeec9d36154d"
+        },
+        "304": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha/1.js",
+          "module_sha256": "0740b5fbce1cafa550e30e9f8b82e78481ddf3f590169fc1dce1cc646f17e41e"
+        },
+        "305": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha/224.js",
+          "module_sha256": "18f00ef199eaa8dbb5cfb6401d9e10443f08063856322ca5b47d72aab60ec7d0"
+        },
+        "306": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha/256.js",
+          "module_sha256": "5c8af539a8251707ea8a4c734a0e48a2598acd5d6ecf76362e0a1dafabcc8573"
+        },
+        "307": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha/384.js",
+          "module_sha256": "17afe2120b006213d7a4824e10a91069ff6da2106683e39dd831ec1f1df2b6a7"
+        },
+        "308": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha/512.js",
+          "module_sha256": "19486d1dd4b2855946aa54178a8821b332d2057bac7ca164ab86a5c396d9cda2"
+        },
+        "309": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/sha/common.js",
+          "module_sha256": "efb074eb9a9a98eace8d03682d0175773e79521a8ed14e697dbd0452d123a8a1"
+        },
+        "310": {
+          "kind": "source-match",
+          "package": "hash.js@1.1.7",
+          "source_file": "lib/hash/utils.js",
+          "module_sha256": "f5830646f3a7419102734f0b1a7289169ec45483c28b3c26cdc3458979ec8476"
+        },
+        "311": {
+          "kind": "browserify-deduplication",
+          "target": "67",
+          "package": "hasown@2.0.2",
+          "module_sha256": "2ad696f4c8465174cae1ecd7b51adb2b84eba79faeeae1cf9a6e782dce98d782"
+        },
+        "312": {
+          "kind": "source-match",
+          "package": "hmac-drbg@1.0.1",
+          "source_file": "lib/hmac-drbg.js",
+          "module_sha256": "222152631b8994ca8ea7cb60c7322ecb7ca4ae594fae7b3e91d9d5e57834aa80"
+        },
+        "313": {
+          "kind": "source-match",
+          "package": "ieee754@1.2.1",
+          "source_file": "index.js",
+          "module_sha256": "847ba0f971e3e3afb043f3e4a2e66a872eeeeb8e0eca92a98ae84f56c90e76db"
+        },
+        "314": {
+          "kind": "browserify-deduplication",
+          "target": "68",
+          "package": "inherits@2.0.4",
+          "module_sha256": "460246d9fa82b1e0eee6390c206cd72a85e99818f188db366358d46a79461e60"
+        },
+        "315": {
+          "kind": "source-match",
+          "package": "is-arguments@1.1.1",
+          "source_file": "index.js",
+          "module_sha256": "7f20d63c62fb4542dc5f7839c01b1cb9b67dbb92caabb2efa804c797d7c3cc77"
+        },
+        "316": {
+          "kind": "source-match",
+          "package": "is-callable@1.2.7",
+          "source_file": "index.js",
+          "module_sha256": "301698400540b5a9ff9bb46e0346b3ff672b3845bef9c8a2061b32ff590f25ed"
+        },
+        "317": {
+          "kind": "source-match",
+          "package": "is-generator-function@1.0.10",
+          "source_file": "index.js",
+          "module_sha256": "ab58e95897dfa720c2a6d185c86285f81484a3c4c13a49e03997a1eded1f6efb"
+        },
+        "318": {
+          "kind": "source-match",
+          "package": "is-typed-array@1.1.13",
+          "source_file": "index.js",
+          "module_sha256": "e320e81f60dd5057111457d5ada92d72523486d1d1670a66529f11895775c823"
+        },
+        "319": {
+          "kind": "browserify-deduplication",
+          "target": "37",
+          "package": "isarray@1.0.0",
+          "module_sha256": "e7ee50c93894a6987464d2b4b005a0ddbe67d4ec4e4c338dc25c85a9fd624285"
+        },
+        "320": {
+          "kind": "browserify-deduplication",
+          "target": "76",
+          "package": "md5.js@1.3.5",
+          "module_sha256": "60a6f4290d57cc62dd7447e98e1d128f48949dcb325933ec847ce9e06719985f"
+        },
+        "321": {
+          "kind": "source-match",
+          "package": "miller-rabin@4.0.1",
+          "source_file": "lib/mr.js",
+          "module_sha256": "05957670da22e5875c5b7585781ad35a08b4fca8bd49f0e5ef411f9f1396454e"
+        },
+        "322": {
+          "kind": "browserify-deduplication",
+          "target": "188",
+          "package": "bn.js@4.12.0",
+          "module_sha256": "533cd0b70e06cd5439c00c504caed63cd702a851996bfa24634f86854563205f"
+        },
+        "323": {
+          "kind": "source-match",
+          "package": "minimalistic-assert@1.0.1",
+          "source_file": "index.js",
+          "module_sha256": "a9da67c9a90960af9399d0107b505434bbb95f8c60928e89eb8d86c327ecf71d"
+        },
+        "324": {
+          "kind": "source-match",
+          "package": "minimalistic-crypto-utils@1.0.1",
+          "source_file": "lib/utils.js",
+          "module_sha256": "a5f6507a80eb82bd786bc8d1d435530747c66fb637ff76f608a4d028cf79f7ff"
+        },
+        "325": {
+          "kind": "source-match",
+          "package": "object-inspect@1.13.2",
+          "source_file": "index.js",
+          "module_sha256": "1abe6ec86b114115a6faa59ff0cbf9fdd52ba7dfa7928d4202a7377a47f040dc"
+        },
+        "326": {
+          "kind": "source-match",
+          "package": "os-browserify@0.3.0",
+          "source_file": "browser.js",
+          "module_sha256": "34921c38f092c8a80e658349427c062ccb08d4e34e53cb8403b886719df4e47e"
+        },
+        "327": {
+          "kind": "source-match",
+          "package": "parse-asn1@5.1.7",
+          "source_file": "aesid.json",
+          "module_sha256": "057392fbda7b0348751a4f96b747dc6e042156042dd3f088ff9a6411338e94e7"
+        },
+        "328": {
+          "kind": "source-match",
+          "package": "parse-asn1@5.1.7",
+          "source_file": "asn1.js",
+          "module_sha256": "1ab6b16bba948ed593dc24d9a4a35ecdefa28e94a5e7e388831026ab130cf24a"
+        },
+        "329": {
+          "kind": "source-match",
+          "package": "parse-asn1@5.1.7",
+          "source_file": "certificate.js",
+          "module_sha256": "163d8aa0c87bb2fc659ee0e5e16966693eae770474aedae40ef0573e18fb16fa"
+        },
+        "330": {
+          "kind": "source-match",
+          "package": "parse-asn1@5.1.7",
+          "source_file": "fixProc.js",
+          "module_sha256": "354bff19af5dc137fdefd2fc896efa2f476cac1065b53fa9d128be506fe08a88"
+        },
+        "331": {
+          "kind": "source-match",
+          "package": "parse-asn1@5.1.7",
+          "source_file": "index.js",
+          "module_sha256": "bfb195c297efea397acb382c0edbeb9f4cef1f3a0aa14d7af223a152abb1c316"
+        },
+        "332": {
+          "kind": "source-match",
+          "package": "path-browserify@1.0.1",
+          "source_file": "index.js",
+          "module_sha256": "f28ab84f6f284b976728e51ca8ea7b37450b387ca2511a745ce31bd1e1d208dc"
+        },
+        "333": {
+          "kind": "source-match",
+          "package": "pbkdf2@3.1.2",
+          "source_file": "browser.js",
+          "module_sha256": "6e262bbdc10880b1494ec5e1f17499ec00038296325878085354616768f13ee2"
+        },
+        "334": {
+          "kind": "source-match",
+          "package": "pbkdf2@3.1.2",
+          "source_file": "lib/async.js",
+          "module_sha256": "7a3ee1c02386c43c8a3b2cc90293a036927134eedaf7cd5e4a1e06d148cb3358"
+        },
+        "335": {
+          "kind": "source-match",
+          "package": "pbkdf2@3.1.2",
+          "source_file": "lib/default-encoding.js",
+          "module_sha256": "1b40c42a16cf6eb6b750f9089b3206f1ab3cab540e91baf406fe2add9f9db849"
+        },
+        "336": {
+          "kind": "source-match",
+          "package": "pbkdf2@3.1.2",
+          "source_file": "lib/precondition.js",
+          "module_sha256": "42e86d68acdcd86313647d716b40635afe39558e51a535129fc8a8fa979dbb86"
+        },
+        "337": {
+          "kind": "source-match",
+          "package": "pbkdf2@3.1.2",
+          "source_file": "lib/sync-browser.js",
+          "module_sha256": "43a808b3bb5af22155a94ec062aa3305e734de3a35e5ec09dc2d6599d1823ac1"
+        },
+        "338": {
+          "kind": "source-match",
+          "package": "pbkdf2@3.1.2",
+          "source_file": "lib/to-buffer.js",
+          "module_sha256": "c9689ee95e1dc962f35d7db03dcf98cc476a7fa5c777bad2cb993c115b09d646"
+        },
+        "339": {
+          "kind": "source-match",
+          "package": "possible-typed-array-names@1.0.0",
+          "source_file": "index.js",
+          "module_sha256": "76846bcfc311f6352ffba977b874a0a4c0c39ce516ebe8bddccb2aa8572d7f66"
+        },
+        "340": {
+          "kind": "browserify-deduplication",
+          "target": "86",
+          "package": "process-nextick-args@2.0.1",
+          "module_sha256": "2b24a5d921ab7194945b7e605e7b48e11a43ff938bb554cbf77729a81255b877"
+        },
+        "341": {
+          "kind": "source-match",
+          "package": "process@0.11.10",
+          "source_file": "browser.js",
+          "module_sha256": "6b905cc12420cddd851c81513889a7a092750297aaa12fec395e98c7db28b6dd"
+        },
+        "342": {
+          "kind": "source-match",
+          "package": "public-encrypt@4.0.3",
+          "source_file": "browser.js",
+          "module_sha256": "549be054d5d0339ab0a87b1ebf82ac4bbfc4cdcccf181e6ef402261a432d68c2"
+        },
+        "343": {
+          "kind": "source-match",
+          "package": "public-encrypt@4.0.3",
+          "source_file": "mgf.js",
+          "module_sha256": "548f09fb2bfe636bc405fca8a7d776ab2fa52ea1a129664dff28254ed9379e2e"
+        },
+        "344": {
+          "kind": "browserify-deduplication",
+          "target": "188",
+          "package": "bn.js@4.12.0",
+          "module_sha256": "533cd0b70e06cd5439c00c504caed63cd702a851996bfa24634f86854563205f"
+        },
+        "345": {
+          "kind": "source-match",
+          "package": "public-encrypt@4.0.3",
+          "source_file": "privateDecrypt.js",
+          "module_sha256": "7f7c015d3322af91cad0147eccdf8c4cd4607ac4148ee680dceca203f9080b81"
+        },
+        "346": {
+          "kind": "source-match",
+          "package": "public-encrypt@4.0.3",
+          "source_file": "publicEncrypt.js",
+          "module_sha256": "4cf9fad0690e31b4ccffce065bc0f718a5f138e84edb364b062e9ebe0313d954"
+        },
+        "347": {
+          "kind": "source-match",
+          "package": "public-encrypt@4.0.3",
+          "source_file": "withPublic.js",
+          "module_sha256": "420fb35afaac53432858f8d1759f188dc0f12d461e25dad7576636a04e7d1634"
+        },
+        "348": {
+          "kind": "source-match",
+          "package": "public-encrypt@4.0.3",
+          "source_file": "xor.js",
+          "module_sha256": "5858e6deaa5e96590342a634af46f2ba218a3095158bd484d549d881b63464b7"
+        },
+        "349": {
+          "kind": "source-match",
+          "package": "punycode@1.4.1",
+          "source_file": "punycode.js",
+          "module_sha256": "1cfc64d5b2516c93c11bb500a30f71aada8133e028739d93b53b8d5c11435c0a"
+        },
+        "350": {
+          "kind": "source-match",
+          "package": "qs@6.12.3",
+          "source_file": "lib/formats.js",
+          "module_sha256": "f2f564e0899c40ca5cd2ca181029fc06032b9be362e34f83353d16611ef5f5e7"
+        },
+        "351": {
+          "kind": "source-match",
+          "package": "qs@6.12.3",
+          "source_file": "lib/index.js",
+          "module_sha256": "625177b17518c46ac049b330464f02eccbfc041151abb830c42195f3cf5a8507"
+        },
+        "352": {
+          "kind": "source-match",
+          "package": "qs@6.12.3",
+          "source_file": "lib/parse.js",
+          "module_sha256": "adb45bba7cd43fc3eb70253a31bc88314a2f072661e1640ffb5f836e27b5a595"
+        },
+        "353": {
+          "kind": "source-match",
+          "package": "qs@6.12.3",
+          "source_file": "lib/stringify.js",
+          "module_sha256": "44806e483c8b0b506315fda8d668e4189a669b84ba13636fe301619cb493cce8"
+        },
+        "354": {
+          "kind": "source-match",
+          "package": "qs@6.12.3",
+          "source_file": "lib/utils.js",
+          "module_sha256": "c74ed714c0274d3ac9ddd1bcdb5987220759b0cc9d7a4b42091e166852e787f0"
+        },
+        "355": {
+          "kind": "source-match",
+          "package": "randombytes@2.1.0",
+          "source_file": "browser.js",
+          "module_sha256": "239b50b6adfd3d03aedcbb66c9de7fbc03e5da254e2f90e2fa00f2d123340393"
+        },
+        "356": {
+          "kind": "source-match",
+          "package": "randomfill@1.0.4",
+          "source_file": "browser.js",
+          "module_sha256": "9241f78e5e1bbe00c2c7a872b075dfa9c036f2341b82f39a186d7f6ef94a15aa"
+        },
+        "357": {
+          "kind": "browserify-deduplication",
+          "target": "38",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "011b3c12cf5c2387a675973a71305de30d520d7c4d59d87e25b1e20e215f5065"
+        },
+        "358": {
+          "kind": "browserify-deduplication",
+          "target": "39",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "c55df1207b0ab2005173734d71d5ee3b6006a9c9ae04d778855655743816fc6e"
+        },
+        "359": {
+          "kind": "browserify-deduplication",
+          "target": "40",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "1330c2fc1e8b2d5e7c00f943fb445508bd9aa73ac12723ab1dc5d405c6c2744b"
+        },
+        "360": {
+          "kind": "browserify-deduplication",
+          "target": "41",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "648538be485b7ae604ebdd52becfe04007ba8e31cb034dbfc3fcb357260d7a54"
+        },
+        "361": {
+          "kind": "browserify-deduplication",
+          "target": "42",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "37dab16b5945fd0d88441093ee205deeeb1648365b8da76cb02ebdcb6cec6bcd"
+        },
+        "362": {
+          "kind": "browserify-deduplication",
+          "target": "43",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "05d30f88c99b2faf7b351b2bace09573f504a9206b70d01cb47658b34be532d3"
+        },
+        "363": {
+          "kind": "browserify-deduplication",
+          "target": "44",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "f4444511904d052c7603a2ec0df12f382e646162901d5f8c663990f0ec614a69"
+        },
+        "364": {
+          "kind": "browserify-deduplication",
+          "target": "45",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "5b611b61e101e096d181ed40bfcf2ded8a93fb2d40e730afc1a5208cf573d4c3"
+        },
+        "365": {
+          "kind": "browserify-deduplication",
+          "target": "47",
+          "package": "safe-buffer@5.1.2",
+          "module_sha256": "42046076f7b4ac4151df0f3b908cb7eb9824a1a7377d6af3df946a3eeefd21cb"
+        },
+        "366": {
+          "kind": "browserify-deduplication",
+          "target": "48",
+          "package": "string_decoder@1.1.1",
+          "module_sha256": "51b3b7c61fd3bfe13453643c410393ad505554fdcc32be70eae89c1043da2f57"
+        },
+        "367": {
+          "kind": "browserify-deduplication",
+          "target": "46",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "e3fc73ba54366b2c3f9c1664804ca2851997a968d1526585aa55d7abf0837fd3"
+        },
+        "368": {
+          "kind": "browserify-deduplication",
+          "target": "104",
+          "package": "ripemd160@2.0.2",
+          "module_sha256": "fabd165fda8acf521e2314f5276138e00af27ee5e530d9b6c8db0d2197b80cf6"
+        },
+        "369": {
+          "kind": "browserify-deduplication",
+          "target": "105",
+          "package": "safe-buffer@5.2.1",
+          "module_sha256": "ff3fcfbd7971184157a7881c8c2a2e40342ea4213ace56c79c44e2878a6e61b0"
+        },
+        "370": {
+          "kind": "browserify-deduplication",
+          "target": "106",
+          "package": "set-function-length@1.2.2",
+          "module_sha256": "9cd6efbc2b75ab4775204b9ca1917691cabd3588feeb0dc9a4ffd3586d180291"
+        },
+        "371": {
+          "kind": "browserify-deduplication",
+          "target": "107",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "c41041ed7994ae6e9a240f069fbfd6fedaf5b4328a1ea5eb5a01867cfc3112e3"
+        },
+        "372": {
+          "kind": "browserify-deduplication",
+          "target": "108",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "56cc48eedd08aa05a818ba3f333e2636c05ae8785e40f3cc4d87cdb9b496ddcf"
+        },
+        "373": {
+          "kind": "browserify-deduplication",
+          "target": "109",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "427a073f990b969f8ad6c88b784ad81a72c8df35be66b83f8e895848fb565cb4"
+        },
+        "374": {
+          "kind": "browserify-deduplication",
+          "target": "110",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "93e98a341243ffb299401533ea301dec56b879e9aec467b3f5b52c238b1c4db8"
+        },
+        "375": {
+          "kind": "browserify-deduplication",
+          "target": "111",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "6688f619d7d3143f12d481b437be3ebe4435fa79f47863d1153f28945c919c45"
+        },
+        "376": {
+          "kind": "browserify-deduplication",
+          "target": "112",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "b98e961ca0a922d838b6f959cc8941b76e8b9619ecd14307f5d4f12c8d3fb535"
+        },
+        "377": {
+          "kind": "browserify-deduplication",
+          "target": "113",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "3419fa2d5a38cf6547917abc2650a7c39fad013260cf5ed372ed488c02b842de"
+        },
+        "378": {
+          "kind": "browserify-deduplication",
+          "target": "114",
+          "package": "sha.js@2.4.11",
+          "module_sha256": "aa4bd37045816939a96029ee37e47131f76182ebf9c0b27c3c8671272a3d1671"
+        },
+        "379": {
+          "kind": "source-match",
+          "package": "side-channel@1.0.6",
+          "source_file": "index.js",
+          "module_sha256": "30c3b38b70f368b764129c03b0025afef56bafc796186eaf19b8788ea128f88b"
+        },
+        "380": {
+          "kind": "source-match",
+          "package": "stream-browserify@3.0.0",
+          "source_file": "index.js",
+          "module_sha256": "c48158b704be2f850f2176fc352eb6554ed4c1791dd757ebcac55336f58f8d3e"
+        },
+        "381": {
+          "kind": "browserify-deduplication",
+          "target": "89",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "34bc0c602e9fde9ad7cc0afab2904e44a7d893af5c245bafd3c77844bb9da44a"
+        },
+        "382": {
+          "kind": "browserify-deduplication",
+          "target": "90",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "69d6b26e44711cfc8d96a0b5b7a9fd6b6568da1c5f363860a0cae68a352d9b5d"
+        },
+        "383": {
+          "kind": "browserify-deduplication",
+          "target": "91",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "3630c7856e1574f3b73f57c81112133ff19a9ac529e7633e6ccf4aef772bf381"
+        },
+        "384": {
+          "kind": "browserify-deduplication",
+          "target": "92",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "0ae706b8c7fb4061b6d6dfd4e7f20eed7dd891884570ff2c48f2af574db93bc1"
+        },
+        "385": {
+          "kind": "browserify-deduplication",
+          "target": "93",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "9e9595fb91ba0049f44a6e177131b5a36e50d909a4a3adf42043b853265eda4c"
+        },
+        "386": {
+          "kind": "browserify-deduplication",
+          "target": "94",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "7774f44c14ef5143bab25ba93efd4cdad4f50e7476e834f9c82c024122f5d93a"
+        },
+        "387": {
+          "kind": "browserify-deduplication",
+          "target": "95",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "f3788173e85dc5fce27583a4d9e35785a267a53248ee6316488dfc88a7100686"
+        },
+        "388": {
+          "kind": "browserify-deduplication",
+          "target": "96",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "d166b2f55f1e1b604ee5fcdce86b0a4972a59bd4552b35d3e15a76987e4506e7"
+        },
+        "389": {
+          "kind": "browserify-deduplication",
+          "target": "97",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "7d8076f699a2f4f1225263d7fbbc9b28127a6aed1de426fde5a6049bb2337323"
+        },
+        "390": {
+          "kind": "browserify-deduplication",
+          "target": "98",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "2b1a2b15603668c740452e51d534ef0ddc8c35fbd652f48ba4edc2aa9612eeea"
+        },
+        "391": {
+          "kind": "browserify-deduplication",
+          "target": "99",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "0ac07eeb0505f4107bad66e9bd03a359be4ccf5207db023ca49fb921bb04bf8f"
+        },
+        "392": {
+          "kind": "browserify-deduplication",
+          "target": "100",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "52087c4510a7ffc8f47b9cb19756d462ffd49bcc5db65fc4dd4116653a52fff0"
+        },
+        "393": {
+          "kind": "browserify-deduplication",
+          "target": "101",
+          "package": "readable-stream@3.6.2",
+          "module_sha256": "431e54278174db8be3bbec047d2c0f52303459a28a0c14a532d64ed0de27fa28"
+        },
+        "394": {
+          "kind": "browserify-deduplication",
+          "target": "45",
+          "package": "readable-stream@2.3.8",
+          "module_sha256": "5b611b61e101e096d181ed40bfcf2ded8a93fb2d40e730afc1a5208cf573d4c3"
+        },
+        "395": {
+          "kind": "browserify-deduplication",
+          "target": "48",
+          "package": "string_decoder@1.1.1",
+          "module_sha256": "51b3b7c61fd3bfe13453643c410393ad505554fdcc32be70eae89c1043da2f57"
+        },
+        "396": {
+          "kind": "source-match",
+          "package": "timers-browserify@1.4.2",
+          "source_file": "main.js",
+          "module_sha256": "8baefb2e2c6db2a29c1a30f480bb9c8cebc69320bfedf5c44927a51981763d54"
+        },
+        "397": {
+          "kind": "source-match",
+          "package": "url@0.11.3",
+          "source_file": "url.js",
+          "module_sha256": "f5a32e945459d354f0d6d5b4e625b6ba45145b7d1026df6fe570e9e8b50dc72a"
+        },
+        "398": {
+          "kind": "browserify-deduplication",
+          "target": "142",
+          "package": "util-deprecate@1.0.2",
+          "module_sha256": "5ede25ffb7afd21e8bfa64551221b4d2b66bbef8478d5d3074f2b83aa8a98f9d"
+        },
+        "399": {
+          "kind": "source-match",
+          "package": "util@0.10.4",
+          "source_file": "support/isBufferBrowser.js",
+          "module_sha256": "d1379f91d067359ab33959a06611a325f2cab29bec981b7596aff8f91b28b887"
+        },
+        "400": {
+          "kind": "source-match",
+          "package": "util@0.12.5",
+          "source_file": "support/types.js",
+          "module_sha256": "2adfb74d2f85b4d35aee113ec045afd15492e218f023c00630bb2a975a835075"
+        },
+        "401": {
+          "kind": "source-match",
+          "package": "util@0.12.5",
+          "source_file": "util.js",
+          "module_sha256": "73c5824326302d2079ba3a36fad46a066246c1da3fb5fc184cc96f73cc696487"
+        },
+        "402": {
+          "kind": "source-match",
+          "package": "vm-browserify@1.1.2",
+          "source_file": "index.js",
+          "module_sha256": "252ed81133d045ca55267c7cbba00086a17919c91d5b570b23b7c85227ce0fae"
+        },
+        "403": {
+          "kind": "source-match",
+          "package": "which-typed-array@1.1.15",
+          "source_file": "index.js",
+          "module_sha256": "a84346c4cc1e04fdde5d5d0098f1f709f1f6daed0dfe0363b45ce3b7262bbf55"
+        },
+        "tendermint": {
+          "kind": "source-match",
+          "package": "tendermint@5.0.2",
+          "source_file": "index.js",
+          "module_sha256": "af24ac431ac5ed0ee679fd236edb3a81e13bccb020f95c7d967e7eb8ee2ca653"
+        }
+      }
+    },
+    "bip39": {
+      "file": "static/js/bip39.js",
+      "sha256": "2c7887f4d58d0ffe68d577c92cb44866fb504e8152fe7028c74ef7836c8c0a3b",
+      "module_count": 15,
+      "modules": {
+        "1": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_assert.js",
+          "module_sha256": "69442f847649d0328e79c76a1a694e55ba1ee9c79378fe5b8bb5495bd4e3372e"
+        },
+        "2": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_md.js",
+          "module_sha256": "b32bb09afb5d5c14d20d78785eac8ea19bc73e0b0db1b75a4f9cecfdb0e33a0d"
+        },
+        "3": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_u64.js",
+          "module_sha256": "9f2f1b1f9832da4794b0384163da7f8c6cfbf131c83ebb09d9081b4587976192"
+        },
+        "4": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "crypto.js",
+          "module_sha256": "4d2566a0feb9b3056faf91b146b14ab62bf4f8cec2a2bde6d00f0e3502a52307"
+        },
+        "5": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "hmac.js",
+          "module_sha256": "a49dc5f0f1eb539e047e22d3a236b772af55b3dfda4762a84815bc02b5ead8c0"
+        },
+        "6": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "pbkdf2.js",
+          "module_sha256": "eff83380780165faa72528429a955b77461511862261148abac1c9581d83de87"
+        },
+        "7": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "sha256.js",
+          "module_sha256": "37d28464ad99db38377eb165199e91ed2512bd7f96d56fc0a3a9fc432235d076"
+        },
+        "8": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "sha512.js",
+          "module_sha256": "c2fde589d799ffdcb2f47267ddb762685b8ead37d76bc2fd3a976e579bbc4966"
+        },
+        "9": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "utils.js",
+          "module_sha256": "02eed93c2171ccaa7e978d808fc8561d776faf4e60a8b571bd5eb82388474c1f"
+        },
+        "10": {
+          "kind": "source-match",
+          "package": "bip39@3.1.0",
+          "source_file": "src/_wordlists.js",
+          "module_sha256": "14ef043a49ee80a48ebeb1a3b5df82a04f2dd0376c2cd675f16dde31f8dde939"
+        },
+        "11": {
+          "kind": "source-match",
+          "package": "bip39@3.1.0",
+          "source_file": "src/wordlists/english.json",
+          "module_sha256": "24386d3a01dff7e31a19239ca87b849836100536149acd2ead98da9a88abdaf3"
+        },
+        "12": {
+          "kind": "source-match",
+          "package": "base64-js@1.5.1",
+          "source_file": "index.js",
+          "module_sha256": "324c4ce66d9ea537670eb6f6e9995550da2cf45ff33f511287c2e59d6c82ad7f"
+        },
+        "13": {
+          "kind": "source-match",
+          "package": "buffer@5.2.1",
+          "source_file": "index.js",
+          "module_sha256": "a99d9040a402143ab98812875e90bfdcfc1b700d1d80b1f0c722e6b85ff7b295"
+        },
+        "14": {
+          "kind": "source-match",
+          "package": "ieee754@1.2.1",
+          "source_file": "index.js",
+          "module_sha256": "847ba0f971e3e3afb043f3e4a2e66a872eeeeb8e0eca92a98ae84f56c90e76db"
+        },
+        "bip39": {
+          "kind": "source-match",
+          "package": "bip39@3.1.0",
+          "source_file": "src/index.js",
+          "module_sha256": "ce90a19909fc72cbe5d80b9c3859c4938df576642bf7ec3bd730819a3b55ed99"
+        }
+      }
+    },
+    "bls-hd-key": {
+      "file": "static/js/bls-hd-key.js",
+      "sha256": "4f6387c6bb36556d46b99453c761f565c7acf49a697084d101d31d27343fa5f6",
+      "module_count": 10,
+      "modules": {
+        "1": {
+          "kind": "source-match",
+          "package": "@chainsafe/bls-hd-key@0.3.0",
+          "source_file": "lib/key-derivation.js",
+          "module_sha256": "5d2940570ca122f37b1250ba9ca393edabd83cb1f87e2c8247051c50ef20c6fb"
+        },
+        "2": {
+          "kind": "source-match",
+          "package": "@chainsafe/bls-hd-key@0.3.0",
+          "source_file": "lib/path.js",
+          "module_sha256": "5a37e5c0cd71b2457659911bb11691adb0adbb4f1e4bdef9330de2b815d175b3"
+        },
+        "3": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_assert.js",
+          "module_sha256": "69442f847649d0328e79c76a1a694e55ba1ee9c79378fe5b8bb5495bd4e3372e"
+        },
+        "4": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_md.js",
+          "module_sha256": "b32bb09afb5d5c14d20d78785eac8ea19bc73e0b0db1b75a4f9cecfdb0e33a0d"
+        },
+        "5": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "crypto.js",
+          "module_sha256": "4d2566a0feb9b3056faf91b146b14ab62bf4f8cec2a2bde6d00f0e3502a52307"
+        },
+        "6": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "hkdf.js",
+          "module_sha256": "e64c8ecc599371fe1862bff3bd88c5762d316a2045394709afff12b8e5cec6ad"
+        },
+        "7": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "hmac.js",
+          "module_sha256": "a49dc5f0f1eb539e047e22d3a236b772af55b3dfda4762a84815bc02b5ead8c0"
+        },
+        "8": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "sha256.js",
+          "module_sha256": "37d28464ad99db38377eb165199e91ed2512bd7f96d56fc0a3a9fc432235d076"
+        },
+        "9": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "utils.js",
+          "module_sha256": "02eed93c2171ccaa7e978d808fc8561d776faf4e60a8b571bd5eb82388474c1f"
+        },
+        "@chainsafe/bls-hd-key": {
+          "kind": "source-match",
+          "package": "@chainsafe/bls-hd-key@0.3.0",
+          "source_file": "lib/index.js",
+          "module_sha256": "8770afe4b03bd01b1d21c98ccfb01d6c88d26384c7a20a1c0523b0f93e98c401"
+        }
+      }
+    },
+    "bls12-381": {
+      "file": "static/js/bls12-381.js",
+      "sha256": "81a6da3fa27ba7292b7b81ce317d648f81d1c9d498425230a25efb4b6b397713",
+      "module_count": 13,
+      "modules": {
+        "1": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/bls.js",
+          "module_sha256": "d7599de2b54d52ead319774b50fbae2c9af95fe02a92a8c83117b8f66d646d95"
+        },
+        "2": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/curve.js",
+          "module_sha256": "39311aef9d576656caeda1b8feedb54872102e5cff3afa43977874b9e168af9c"
+        },
+        "3": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/hash-to-curve.js",
+          "module_sha256": "c7bb0b31fe445076aef0944dc203eda3089fc4a90ec198cf2c2a5d662ddee0c0"
+        },
+        "4": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/modular.js",
+          "module_sha256": "5318d951702b425cda70a5e1bab28acdbbe615f271c910eeef24e355368ee74e"
+        },
+        "5": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/tower.js",
+          "module_sha256": "7a1b62985c14ad407b0625ea3b693025ba8f399793bba9086f146eeda0fe9412"
+        },
+        "6": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/utils.js",
+          "module_sha256": "694eb96c9be36c4fd87bcc46b01fa46585102ef78882016f3a8f82efd1e7b647"
+        },
+        "7": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "abstract/weierstrass.js",
+          "module_sha256": "a098efc14fde94cc784d374f100567849b9b3f71727d4738031e46ea196f797f"
+        },
+        "8": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_assert.js",
+          "module_sha256": "69442f847649d0328e79c76a1a694e55ba1ee9c79378fe5b8bb5495bd4e3372e"
+        },
+        "9": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "_md.js",
+          "module_sha256": "b32bb09afb5d5c14d20d78785eac8ea19bc73e0b0db1b75a4f9cecfdb0e33a0d"
+        },
+        "10": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "crypto.js",
+          "module_sha256": "4d2566a0feb9b3056faf91b146b14ab62bf4f8cec2a2bde6d00f0e3502a52307"
+        },
+        "11": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "sha256.js",
+          "module_sha256": "37d28464ad99db38377eb165199e91ed2512bd7f96d56fc0a3a9fc432235d076"
+        },
+        "12": {
+          "kind": "source-match",
+          "package": "@noble/hashes@1.5.0",
+          "source_file": "utils.js",
+          "module_sha256": "02eed93c2171ccaa7e978d808fc8561d776faf4e60a8b571bd5eb82388474c1f"
+        },
+        "@noble/curves/bls12-381": {
+          "kind": "source-match",
+          "package": "@noble/curves@1.6.0",
+          "source_file": "bls12-381.js",
+          "module_sha256": "605664f8abdc5161f707a154cef4f4b7e10e4a70bb855ec832e1dade0decfe02"
+        }
+      }
+    }
+  }
+}

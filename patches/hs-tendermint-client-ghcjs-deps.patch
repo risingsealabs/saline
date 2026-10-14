@@ -1,0 +1,24 @@
+diff --git a/hs-tendermint-client/package.yaml b/hs-tendermint-client/package.yaml
+index ffc3402..1d2fe96 100644
+--- a/hs-tendermint-client/package.yaml
++++ b/hs-tendermint-client/package.yaml
+@@ -40,18 +40,14 @@ library:
+     - aeson-casing
+     - conduit
+     - hs-abci-types
+-    - http-client
+-    - http-conduit
+     - lens
+     - lens-aeson
+     - mtl
+     - random
+     - resourcet
+     - stm
+-    - stm-conduit
+     - text
+-    - websockets
+-    - wuss
++
+   ghc-options:
+   - -Werror
+   - -Wall
