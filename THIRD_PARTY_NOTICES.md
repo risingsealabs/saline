@@ -31,11 +31,11 @@ The release review checked each tarball against its recorded SHA-512 integrity v
 
 | Published archive | Declared license | Published author |
 | --- | --- | --- |
-| int53 0.2.4 | BSD-3-Clause | Danny Coates |
-| ndjson 1.5.0 | BSD-3-Clause | max ogden |
-| old 0.1.3 | MIT | Matt Bell |
-| supercop.js 2.0.1 | ISC | 1p6 |
-| tendermint 5.0.2 | MIT | Matt Bell |
+| [int53 0.2.4](third-party-licenses/npm-archives/int53-0.2.4.tgz) | BSD-3-Clause | Danny Coates |
+| [ndjson 1.5.0](third-party-licenses/npm-archives/ndjson-1.5.0.tgz) | BSD-3-Clause | max ogden |
+| [old 0.1.3](third-party-licenses/npm-archives/old-0.1.3.tgz) | MIT | Matt Bell |
+| [supercop.js 2.0.1](third-party-licenses/npm-archives/supercop.js-2.0.1.tgz) | ISC | 1p6 |
+| [tendermint 5.0.2](third-party-licenses/npm-archives/tendermint-5.0.2.tgz) | MIT | Matt Bell |
 
 The int53 README says “BSD”; the ndjson README names BSD-3-Clause. The package declarations identify the specific terms reproduced in the collected notices. The published supercop.js archive contains only package.json, index.js, and lib.js.
 

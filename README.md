@@ -26,7 +26,7 @@ The revisions and source hashes are unchanged. [deps.nix](deps.nix) applies a [s
 
 ### hsblst pin and upstream compatibility
 
-Saline pins [hsblst commit `4ac103247a30a0c8624bae9acec026a2ed4ad997`](https://github.com/risingsealabs/hsblst/commit/4ac103247a30a0c8624bae9acec026a2ed4ad997), originally from `alexfmpe/hsblst`. That fork was unavailable during the 2026-10-15 release checks; the exact commit was recovered through `serokell/hsblst` and is now preserved in the RSL mirror. The revision, source hash, and BLST submodule are unchanged.
+Saline pins [hsblst commit `4ac103247a30a0c8624bae9acec026a2ed4ad997`](https://github.com/risingsealabs/hsblst/commit/4ac103247a30a0c8624bae9acec026a2ed4ad997), originally from `alexfmpe/hsblst`. That fork was unavailable during the 2026-10-15 release checks; the exact commit was recovered through `serokell/hsblst` and is now preserved in the RSL mirror. Nix fetches the wrapper and its C source separately. The C source comes from the [RSL blst mirror](https://github.com/risingsealabs/blst/tree/3dd0f804b1819e5d03fb22ca2e6fac105932043a) at the exact commit recorded by the wrapper, also tagged `saline-pin`.
 
 This is a source-location change, not an upgrade to an upstream release. The pin contains two fork commits: EIP-2333 key-derivation exports and GHC 8.10 compatibility work. Neither commit was in upstream `master`'s history when checked. Saline uses `deriveMasterEIP2333` and `deriveChildEIP2333`, which were absent from the current upstream public API.
 

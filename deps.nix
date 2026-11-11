@@ -46,13 +46,25 @@ let
     # was recovered through serokell and is preserved under risingsealabs.
     # These fork changes were not merged into upstream master as of 2026-10-15.
     # Preserve the revision/hash; see README's hsblst compatibility note before upgrading.
-    hsblst = nixpkgs.fetchFromGitHub {
-      owner = "risingsealabs";
-      repo = "hsblst";
-      rev = "4ac103247a30a0c8624bae9acec026a2ed4ad997";
-      sha256 = "sha256-/fFtYdIkU8RCgPk1OvOXAzIyvs8Pig267nFE2AIAGFo=";
-      fetchSubmodules = true;
-    };
+    hsblst = let
+      wrapper = nixpkgs.fetchFromGitHub {
+        owner = "risingsealabs";
+        repo = "hsblst";
+        rev = "4ac103247a30a0c8624bae9acec026a2ed4ad997";
+        sha256 = "101ipz6q3fy61ws42sjnz52hciq4any6r3vq6hya39195vp5zxrn";
+      };
+      blst = nixpkgs.fetchFromGitHub {
+        owner = "risingsealabs";
+        repo = "blst";
+        rev = "3dd0f804b1819e5d03fb22ca2e6fac105932043a";
+        sha256 = "1l1c905d5dinj279vyfc8phjnl5fgihbdjgp0z20a92pwv5n7ad2";
+      };
+    in nixpkgs.runCommand "hsblst-source" {} ''
+      mkdir -p "$out/c-source"
+      cp -R ${wrapper}/. "$out/"
+      chmod u+w "$out/c-source"
+      cp -R ${blst}/. "$out/c-source/"
+    '';
 
     # https://github.com/rslex/kepler/tree/nix-derivation-wip-tendermint-only
     kepler = isGhcjs: nixpkgs.applyPatches {
