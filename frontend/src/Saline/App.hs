@@ -107,13 +107,16 @@ body showTestnetBanner env = do
     switchHold never $ ffor ev $ fmapMaybe justHere
 
   where
-    loggedOut = setup env >>= \case
+    loggedOut = unlockWith env
+
+    unlockWith unlockEnv = setup unlockEnv >>= \case
       Left a -> fmap (Just a <$) getPostBuild
       Right a -> pure $ fmap Just a
 
     app :: Maybe SecretKey -> RoutedT t (R AppRoute) m (Event t (These SelectedWallet (Maybe SecretKey)))
     app = \case
-      Nothing -> (fmap . fmap) That loggedOut
+      -- Explicit locking must not immediately reuse the development password.
+      Nothing -> (fmap . fmap) That $ unlockWith env { _env_autoUnlock = Nothing }
       Just sk -> divClass "flex flex-row flex-1" $ do
         column navStyle $ do
           menu

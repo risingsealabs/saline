@@ -27,6 +27,18 @@ The collected notices include Axios, base64-js, buffer, ieee754 and the other id
 
 Five matching packages—`int53@0.2.4`, `ndjson@1.5.0`, `old@0.1.3`, `supercop.js@2.0.1`, and `tendermint@5.0.2`—publish a license declaration but no separate complete license text in the inspected package archive or upstream repository. Their collected-notice sections reproduce the upstream author and license metadata and explicitly identify the standard declared-license terms supplied for convenience. No upstream copyright holder or year has been invented.
 
-The supercop.js archive includes Emscripten-generated code from orlp/ed25519. Its build script did not pin the C source revision or compiler version. The runtime notice file preserves the upstream ed25519 zlib notice, SHA-512 attribution, and contemporary Emscripten and C-runtime notices, with their source revisions. Those revisions identify the notice sources; they are not asserted to be the unrecovered original compiler/vendor pins. This release preserves the historical bundle as supplied, rather than claiming a reproducible reconstruction of its build.
+The release review checked each tarball against its recorded SHA-512 integrity value and compared its package declaration with the collected notice.
+
+| Published archive | Declared license | Published author |
+| --- | --- | --- |
+| int53 0.2.4 | BSD-3-Clause | Danny Coates |
+| ndjson 1.5.0 | BSD-3-Clause | max ogden |
+| old 0.1.3 | MIT | Matt Bell |
+| supercop.js 2.0.1 | ISC | 1p6 |
+| tendermint 5.0.2 | MIT | Matt Bell |
+
+The int53 README says “BSD”; the ndjson README names BSD-3-Clause. The package declarations identify the specific terms reproduced in the collected notices. The published supercop.js archive contains only package.json, index.js, and lib.js.
+
+The supercop.js archive includes Emscripten-generated code from orlp/ed25519. Its build script did not pin the C source revision or compiler version. The runtime notice file preserves the upstream ed25519 zlib notice, SHA-512 attribution, and contemporary Emscripten and C-runtime notices, with their source revisions. Those revisions identify the notice sources; they are not asserted to be the unrecovered original compiler/vendor pins. The known wrapper revision is `e292dafa1e1a7127b259b806a1a5b966e4ae2f6f`. The missing pins are the orlp/ed25519 Git commit used to populate `vendor/src` and the Emscripten release or commit supplying `emcc`. This release preserves the historical bundle as supplied, rather than claiming a reproducible reconstruction of its build.
 
 D3, Tailwind CSS, and Google Fonts are loaded remotely. ApexCharts is pinned to the MIT-licensed 3.49.1 release. The project owner has confirmed redistribution rights for project assets. Third-party marks retain their respective ownership.

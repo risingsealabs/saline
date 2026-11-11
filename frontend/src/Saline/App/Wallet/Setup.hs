@@ -50,7 +50,9 @@ setup env = do
       Right (Just encrypted) -> case _env_autoUnlock env of
         Nothing -> go s $ Screen_Unlock encrypted
         Just p -> decrypt encrypted p >>= \case
-          Left err -> fatal err
+          -- The development password is only a convenience: wallets created
+          -- with another password must still be unlockable after a reload.
+          Left _ -> go s $ Screen_Unlock encrypted
           Right sk -> pure $ Left sk
 
   where

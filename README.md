@@ -8,7 +8,9 @@ See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for dependency licenses, th
 
 ## Build status
 
-On 2026-10-15, `nix-shell --run 'make dev'` started the local devnet on aarch64 macOS with GHC 9.8.4. Both node RPC endpoints responded and produced blocks, and the UI served at `http://localhost:8000/`. The full suite passed all 21 tests, including network transfers, swaps, intents, node joining, and metrics. Browser onboarding reached password setup; a complete browser wallet transaction and packaged web/mobile builds remain unverified.
+On 2026-10-20, `nix-shell --run 'make build'` and the full 21-test suite passed on aarch64 macOS with GHC 9.8.4 using the RSL dependency mirrors. The tests include network transfers, swaps, intents, node joining, and metrics.
+
+On 2026-10-15, `nix-shell --run 'make dev'` started the local devnet. Both node RPC endpoints responded and produced blocks, and the UI served at `http://localhost:8000/`. Browser onboarding reached password setup; a complete browser wallet transaction and packaged web/mobile builds remain unverified.
 
 ### Limits of this snapshot
 
@@ -16,9 +18,15 @@ Application persistence and recovery are unfinished or unverified, and the node 
 
 Forks are welcome. Historical plans and contact details do not imply future development or a response from the original team.
 
+### Dependency mirrors
+
+Forked dependencies are mirrored under Rising Sea Labs: [Obelisk](https://github.com/risingsealabs/obelisk), [cardano-crypto](https://github.com/risingsealabs/cardano-crypto), [foundation](https://github.com/risingsealabs/foundation), [hsblst](https://github.com/risingsealabs/hsblst), and Obelisk's nested dependencies [reflex-platform](https://github.com/risingsealabs/reflex-platform) and [splitmix](https://github.com/risingsealabs/splitmix). Each mirror retains the source history and licenses, with a `saline-pinned` branch preserving the exact revision used here.
+
+The revisions and source hashes are unchanged. [deps.nix](deps.nix) applies a [small patch](patches/obelisk-rsl-dependencies.patch) to Obelisk that redirects its two nested dependency URLs to the RSL mirrors.
+
 ### hsblst pin and upstream compatibility
 
-Saline pins [hsblst commit `4ac103247a30a0c8624bae9acec026a2ed4ad997`](https://github.com/serokell/hsblst/commit/4ac103247a30a0c8624bae9acec026a2ed4ad997), originally from `alexfmpe/hsblst`. That fork was unavailable during the 2026-10-15 release checks, so [deps.nix](deps.nix) now fetches the exact commit through `serokell/hsblst`. The revision, source hash, and BLST submodule are unchanged; Nix successfully verified the recovered source.
+Saline pins [hsblst commit `4ac103247a30a0c8624bae9acec026a2ed4ad997`](https://github.com/risingsealabs/hsblst/commit/4ac103247a30a0c8624bae9acec026a2ed4ad997), originally from `alexfmpe/hsblst`. That fork was unavailable during the 2026-10-15 release checks; the exact commit was recovered through `serokell/hsblst` and is now preserved in the RSL mirror. The revision, source hash, and BLST submodule are unchanged.
 
 This is a source-location change, not an upgrade to an upstream release. The pin contains two fork commits: EIP-2333 key-derivation exports and GHC 8.10 compatibility work. Neither commit was in upstream `master`'s history when checked. Saline uses `deriveMasterEIP2333` and `deriveChildEIP2333`, which were absent from the current upstream public API.
 

@@ -1,0 +1,14 @@
+--- a/dep/reflex-platform/github.json
++++ b/dep/reflex-platform/github.json
+@@ -1,3 +1,3 @@
+ {
+-  "owner": "alexfmpe",
++  "owner": "risingsealabs",
+   "repo": "reflex-platform",
+--- a/lib/cabal.dependencies.project
++++ b/lib/cabal.dependencies.project
+@@ -11,3 +11,3 @@
+   type: git
+-  location: https://github.com/alexfmpe/splitmix
++  location: https://github.com/risingsealabs/splitmix
+   tag: bd53859c0f41d12f16c3f44fee52f5e9aae26243

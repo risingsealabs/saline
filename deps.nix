@@ -9,7 +9,7 @@ let
     };
 
     # Branch with a bunch of PRs still unmerged upstream
-    # https://github.com/alexfmpe/obelisk/tree/unmerged
+    # https://github.com/risingsealabs/obelisk/tree/unmerged
     ## https://github.com/obsidiansystems/obelisk/pull/984
     ## https://github.com/obsidiansystems/obelisk/pull/988
     ## https://github.com/obsidiansystems/obelisk/pull/989
@@ -17,34 +17,37 @@ let
     ## https://github.com/obsidiansystems/obelisk/pull/1080
     ## https://github.com/reflex-frp/reflex-platform/pull/840
     ## https://github.com/reflex-frp/reflex-platform/pull/841
-    obelisk = nixpkgs.fetchFromGitHub {
-      owner = "alexfmpe";
-      repo = "obelisk";
-      rev = "96cdbd718fa7f1fb22bf7e7ad41a794209a5e029";
-      sha256 = "sha256-QOlc2JEEfsUOEwGPshoNrrwt66uchHj/KmQ5LMp17fw=";
+    obelisk = nixpkgs.applyPatches {
+      src = nixpkgs.fetchFromGitHub {
+        owner = "risingsealabs";
+        repo = "obelisk";
+        rev = "96cdbd718fa7f1fb22bf7e7ad41a794209a5e029";
+        sha256 = "sha256-QOlc2JEEfsUOEwGPshoNrrwt66uchHj/KmQ5LMp17fw=";
+      };
+      patches = [./patches/obelisk-rsl-dependencies.patch];
     };
 
     # When we switch to 9.x ghc: https://iohk.io/en/blog/posts/2020/07/28/improving-haskells-big-numbers-support/
     cardano-crypto = nixpkgs.fetchFromGitHub {
-      owner = "alexfmpe";
+      owner = "risingsealabs";
       repo = "cardano-crypto";
       rev = "5f111a46294986b3b9bdb93ec726792450b793bf";
       sha256 = "sha256-lGklKvrdnxwk3jx7LqE4OUjnR0Scay1ElVbwVGbAzkE=";
     };
 
     foundation = nixpkgs.fetchFromGitHub {
-      owner = "alexfmpe";
+      owner = "risingsealabs";
       repo = "foundation";
       rev = "edcf3d50042cf957906a6ad3e05105f53cb1bc3d";
       sha256 = "sha256-7ye3P6kCWltKyJuHGWDXlTaqnV5TPSTTplyuW1KcUog=";
     };
 
     # Builds under 8.10 and exposes EIP2333. The original alexfmpe fork
-    # is unavailable; its exact commit remains fetchable through serokell.
+    # was recovered through serokell and is preserved under risingsealabs.
     # These fork changes were not merged into upstream master as of 2026-10-15.
     # Preserve the revision/hash; see README's hsblst compatibility note before upgrading.
     hsblst = nixpkgs.fetchFromGitHub {
-      owner = "serokell";
+      owner = "risingsealabs";
       repo = "hsblst";
       rev = "4ac103247a30a0c8624bae9acec026a2ed4ad997";
       sha256 = "sha256-/fFtYdIkU8RCgPk1OvOXAzIyvs8Pig267nFE2AIAGFo=";
